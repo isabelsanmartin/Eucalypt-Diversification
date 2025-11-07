@@ -1,0 +1,203 @@
+##################################################################################
+#
+# RevBayes Example: Bayesian inference of diversification rates under a
+#                   episodic birth-death model with Horseshoe Markov Random Field
+#
+#
+# authors: Sebastian Hoehna
+#
+##################################################################################
+
+#######################
+# Reading in the Data #
+#######################
+
+### Read in the "observed" tree
+T <- readTrees("data/Eucalypts_2016_dated_r8s_ultrametric_binary_noOut_trueEuc.tre")[1]
+
+# Get some useful variables from the data. We need these later on.
+taxa <- T.taxa()
+
+
+# Create some vector for the moves and monitors of this analysis
+moves    = VectorMoves()
+monitors = VectorMonitors()
+
+
+H = 0.587405
+
+####################
+# Create the rates #
+####################
+
+### We use the same number of intervals as in the Environmental BD model ###
+NUM_INTERVALS = 58
+NUM_BREAKS := NUM_INTERVALS - 1
+
+
+# prior and hyperprior for overall amount of rate variation
+# We use the function setMRFGlobalScaleHyperpriorNShifts() in RevGadgets to estimate the prior for HSMRF ###
+# gs <- setMRFGlobalScaleHyperpriorNShifts(58, "HSMRF") ##
+# [1] 0.00415874 ##
+
+# We multiply this value by 100 to increase the variance of the "overall amount of radiation
+# the speciation_global_scale_hyperprior"
+
+# Another possibility is to increase the variance in the HalfCauchy distribution that governs the HSMRF jumps
+# but this is less stable and does not lead to convergence
+
+
+speciation_global_scale_hyperprior <-  0.00415874 * 100
+extinction_global_scale_hyperprior <-  0.00415874 * 100
+
+#speciation_global_scale <- 100
+#extinction_global_scale <- 100
+speciation_global_scale ~ dnHalfCauchy(0,1)
+extinction_global_scale ~ dnHalfCauchy(0,1)
+
+moves.append( mvSlideBactrian(speciation_global_scale,weight=2))
+moves.append( mvSlideBactrian(extinction_global_scale,weight=2))
+moves.append( mvScaleBactrian(speciation_global_scale,weight=2))
+moves.append( mvScaleBactrian(extinction_global_scale,weight=2))
+
+
+# create a random variable at the present time
+log_speciation_at_present ~ dnUniform(-10.0,10.0)
+log_speciation_at_present.setValue(0.0)
+log_extinction_at_present ~ dnUniform(-10.0,10.0)
+log_extinction_at_present.setValue(-1.0)
+
+moves.append( mvSlideBactrian(log_speciation_at_present,weight=5))
+moves.append( mvSlideBactrian(log_extinction_at_present,weight=5))
+
+for (i in 1:NUM_BREAKS) {
+  sigma_speciation[i] ~ dnHalfCauchy(0,1)
+  sigma_extinction[i] ~ dnHalfCauchy(0,1)
+
+  # Make sure values initialize to something reasonable
+  sigma_speciation[i].setValue(runif(1,0.005,0.1)[1])
+  sigma_extinction[i].setValue(runif(1,0.005,0.1)[1])
+
+  # non-centralized parameterization of horseshoe
+  delta_log_speciation[i] ~ dnNormal( mean=0, sd=sigma_speciation[i]*speciation_global_scale*speciation_global_scale_hyperprior )
+  delta_log_extinction[i] ~ dnNormal( mean=0, sd=sigma_extinction[i]*extinction_global_scale*extinction_global_scale_hyperprior )
+
+
+  moves.append( mvSlideBactrian(delta_log_speciation[i], sigma=0.01, weight=5) )
+  moves.append( mvSlideBactrian(delta_log_extinction[i], sigma=0.01, weight=5) )
+
+  delta_up_down_move[i] = mvUpDownSlide(weight=5.0, lambda=0.01)
+  delta_up_down_move[i].addVariable(delta_log_speciation[i],TRUE)
+  delta_up_down_move[i].addVariable(delta_log_extinction[i],TRUE)
+  moves.append(  delta_up_down_move[i] )
+
+  if ( i > 1 ) {
+    delta_up_down_interval_lambda_move[i-1] = mvUpDownSlide(weight=2.0, lambda=0.01)
+    delta_up_down_interval_lambda_move[i-1].addVariable(delta_log_speciation[i],TRUE)
+    delta_up_down_interval_lambda_move[i-1].addVariable(delta_log_speciation[i-1],FALSE)
+    moves.append(  delta_up_down_interval_lambda_move[i-1] )
+
+    delta_up_down_interval_mu_move[i-1] = mvUpDownSlide(weight=2.0, lambda=0.01)
+    delta_up_down_interval_mu_move[i-1].addVariable(delta_log_extinction[i],TRUE)
+    delta_up_down_interval_mu_move[i-1].addVariable(delta_log_extinction[i-1],FALSE)
+    moves.append(  delta_up_down_interval_mu_move[i-1] )
+  }
+}
+
+# Assemble first-order differences and speciation_rate at present into the random field
+speciation := fnassembleContinuousMRF(log_speciation_at_present,delta_log_speciation,initialValueIsLogScale=TRUE,order=1)
+extinction := fnassembleContinuousMRF(log_extinction_at_present,delta_log_extinction,initialValueIsLogScale=TRUE,order=1)
+
+# Move all field parameters in one go
+#moves.append( mvEllipticalSliceSamplingSimple(delta_log_speciation,weight=5,tune=FALSE) )
+#moves.append( mvEllipticalSliceSamplingSimple(delta_log_extinction,weight=5,tune=FALSE) )
+
+# Move all field hyperparameters in one go
+#moves.append( mvHSRFHyperpriorsGibbs(speciation_global_scale, sigma_speciation , delta_log_speciation , speciation_global_scale_hyperprior, propGlobalOnly=0.75, weight=10) )
+#moves.append( mvHSRFHyperpriorsGibbs(extinction_global_scale, sigma_extinction , delta_log_extinction , extinction_global_scale_hyperprior, propGlobalOnly=0.75, weight=10) )
+
+# Swap moves to exchange adjacent delta,sigma pairs
+moves.append( mvHSRFIntervalSwap(delta_log_speciation ,sigma_speciation ,weight=5) )
+moves.append( mvHSRFIntervalSwap(delta_log_extinction ,sigma_extinction ,weight=5) )
+speciation_times <- abs(T.rootAge() * seq(1, NUM_BREAKS, 1)/NUM_INTERVALS)
+extinction_times <- abs(T.rootAge() * seq(1, NUM_BREAKS, 1)/NUM_INTERVALS)
+
+moves.append( mvVectorSlide(delta_log_speciation, weight=10) )
+moves.append( mvVectorSlide(delta_log_extinction, weight=10) )
+
+rates_up_down_move = mvUpDownSlide(weight=10.0)
+rates_up_down_move.addVariable(log_speciation_at_present,FALSE)
+rates_up_down_move.addVariable(log_extinction_at_present,FALSE)
+rates_up_down_move.addVariable(delta_log_speciation,TRUE)
+rates_up_down_move.addVariable(delta_log_extinction,TRUE)
+moves.append( rates_up_down_move )
+
+lambda_up_down_move = mvUpDownSlide(weight=10.0)
+lambda_up_down_move.addVariable(log_speciation_at_present,FALSE)
+lambda_up_down_move.addVariable(delta_log_speciation,TRUE)
+moves.append( lambda_up_down_move )
+
+mu_up_down_move = mvUpDownSlide(weight=10.0)
+mu_up_down_move.addVariable(log_extinction_at_present,FALSE)
+mu_up_down_move.addVariable(delta_log_extinction,TRUE)
+moves.append( mu_up_down_move )
+
+moves.append( mvShrinkExpand( delta_log_speciation, sd=speciation_global_scale, weight=10 ) )
+moves.append( mvShrinkExpand( delta_log_extinction, sd=extinction_global_scale, weight=10 ) )
+
+
+### rho is the probability of sampling species at the present
+### There are c. 800 species of eucalypts and relatives: Tribe Eucalypteae, Family Myraceae (c. 800 species according to Thornhill et al.)
+### Since we considered total diversity as 800 species for Eucalypteae, we remove here 5 species correspondign to Mesoeucalyptus
+rho <- T.ntips()/795
+
+
+timetree ~ dnEpisodicBirthDeath(rootAge=T.rootAge(), lambdaRates=speciation, lambdaTimes=speciation_times, muRates=extinction, muTimes=extinction_times, rho=rho, samplingStrategy="uniform", condition="survival", taxa=taxa)
+
+### clamp the model with the "observed" tree
+timetree.clamp(T)
+
+
+
+timetree ~ dnEpisodicBirthDeath(rootAge=T.rootAge(), lambdaRates=speciation, lambdaTimes=speciation_times, muRates=extinction, muTimes=extinction_times, rho=rho, samplingStrategy="uniform", condition="survival", taxa=taxa)
+
+### clamp the model with the "observed" tree
+timetree.clamp(T)
+
+
+
+#############
+# The Model #
+#############
+
+
+### workspace model wrapper ###
+mymodel = model(rho)
+
+### set up the monitors that will output parameter values to file and screen
+
+monitors.append( mnModel(filename="output/Eucalypts_ML_noOut_trueEuc_EBD.log",printgen=10, separator = TAB) )
+monitors.append( mnFile(filename="output/Eucalypts_ML_noOut_trueEuc_EBD_speciation_rates.log",printgen=10, separator = TAB, speciation) )
+monitors.append( mnFile(filename="output/Eucalypts_ML_noOut_trueEuc_EBD_speciation_times.log",printgen=10, separator = TAB, speciation_times) )
+monitors.append( mnFile(filename="output/Eucalypts_ML_noOut_trueEuc_EBD_extinction_rates.log",printgen=10, separator = TAB, extinction) )
+monitors.append( mnFile(filename="output/Eucalypts_ML_noOut_trueEuc_EBD_extinction_times.log",printgen=10, separator = TAB, extinction_times) )
+if ( exists( "n_speciation_shifts" ) && exists( "n_extinction_shifts" ) ) {
+  monitors.append( mnFile(filename="output/Eucalypts_ML_noOut_trueEuc_EBD_HSMRf_num_events.log",printgen=10, separator = TAB, n_speciation_shifts, n_extinction_shifts) )
+}
+monitors.append( mnScreen(printgen=100) )
+
+
+
+################
+# The Analysis #
+################
+
+### workspace mcmc ###
+mymcmc = mcmc(mymodel, monitors, moves, nruns=4, combine="mixed")
+
+### run the MCMC ###
+mymcmc.run(generations=100000, tuningInterval=100)
+
+
+## quit ##
+q()
