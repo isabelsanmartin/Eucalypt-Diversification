@@ -1,0 +1,1435 @@
+#NEXUS
+[R-package APE, Wed Jan 22 23:04:27 2025]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 711;
+	TAXLABELS
+		Angophora_melanoxylon_509
+		Angophora_exul_573034
+		Angophora_robur_LAN056
+		Angophora_woodsiana_LAN058
+		Angophora_floribunda_LAN107
+		Angophora_bakeri_subsp_bakeri_LAN103
+		Angophora_hispida_LAN009
+		Angophora_costata_subsp_costata_LAN043
+		Angophora_inopina_LAN025
+		Angophora_subvelutina_LAN059
+		Corymbia_eximia_ANBG_62889
+		Corymbia_maculata_ANBG_7800470
+		Corymbia_henryi_ANBG_8910948
+		Corymbia_citriodora_231
+		Corymbia_variegata
+		Corymbia_aparrerinja_MC_10615
+		Corymbia_papuana_CANB_583122
+		Corymbia_dallachiana_CANB_697829
+		Corymbia_grandifolia_CANB_739034
+		Corymbia_torelliana_Mt_Annan_981102
+		Corymbia_tessellaris_324
+		Corymbia_bloxsomei_238
+		Corymbia_peltata_493
+		Corymbia_leichhardtii_Mt_Annan_891967
+		Corymbia_leptoloma_694
+		Corymbia_aureola_CANB_582839
+		Corymbia_bunites_229
+		Corymbia_watsoniana_subsp_watsoniana_ANBG_68771
+		Corymbia_dimorpha
+		Corymbia_catenaria_240
+		Corymbia_petalophylla_Mt_Annan_892019
+		Corymbia_scabrida_Mt_Annan_891868
+		Corymbia_candida_subsp_dispodes_454
+		Corymbia_flavescens_MC_10596
+		Corymbia_ferriticola_MC_11117
+		Corymbia_arafurica_CANB_557707
+		Corymbia_confertiflora_CANB_785485
+		Corymbia_aspera_CANB_785505
+		Corymbia_gilbertensis_CANB_739029
+		Corymbia_blakei_CANB_582767
+		Corymbia_polysciada_CANB_785479
+		Corymbia_pauciseta_CANB_448845
+		Corymbia_bella_MC_10518
+		Corymbia_dendromerinx_CANB_644448
+		Corymbia_torta_CANB_644409
+		Corymbia_hylandii_CANB_738922
+		Corymbia_porrecta_CANB_628340
+		Corymbia_porphyritica
+		Corymbia_lenziana_CANB_794064
+		Corymbia_stockeri_subsp_stockeri_CANB_739042
+		Corymbia_opaca
+		Corymbia_opacula
+		Corymbia_pachycarpa_CANB_785564
+		Corymbia_rhodops_CANB_598277
+		Corymbia_terminalis_MC_10579
+		Corymbia_dichromophloia_MC_10528
+		Corymbia_latifolia_CANB_785515
+		Corymbia_abbreviata_CANB_459002
+		Corymbia_novaguineesis_CANB_738912
+		Corymbia_clarksoniana_ANBG_643951
+		Corymbia_jacobsiana_CANB_558528
+		Corymbia_lamprophylla_Mt_Annan_842093
+		Corymbia_ptychocarpa_subsp_ptychocarpa_MC_10536
+		Corymbia_intermedia_230
+		Corymbia_xanthope
+		Corymbia_brachycarpa_Mt_Annan_891988
+		Corymbia_hamersleyana_MC_11116
+		Corymbia_arenaria_MC_10558
+		Corymbia_chippendalei_CANB_513580
+		Corymbia_dolichocarpa
+		Corymbia_polycarpa_CANB_785478
+		Corymbia_papillosa_CANB_564789
+		Corymbia_erythrophloia_Mt_Annan_891984
+		Corymbia_ferruginea_subsp_ferruginea_MC_10538
+		Corymbia_dampieri
+		Corymbia_foelscheana_MC_10508
+		Corymbia_greeniana_MC_10557
+		Corymbia_collina_MC_10588
+		Corymbia_nesophila_MC_10553
+		Corymbia_bleeseri_MC_10516
+		Corymbia_cadophora_subsp_cadophora_MC_10577
+		Corymbia_dunlopiana_CANB_640209
+		Corymbia_eremaea_subsp_eremaea_280
+		Corymbia_deserticola_subsp_deserticola_MC_11111
+		Corymbia_plena_CANB_660150
+		Corymbia_ligans_subsp_ligans
+		Corymbia_zygophylla_MC_10581
+		Corymbia_ellipsoidea_Mt_Annan_904974
+		Corymbia_hendersonii_252
+		Corymbia_gummifera_680
+		Corymbia_trachyphloia_ANBG_60750
+		Corymbia_ficifolia_ANBG_c208
+		Corymbia_calophylla_377
+		Corymbia_haematoxylon_380
+		Corymbia_abergiana_633
+		Eucalyptus_curtisii_632
+		Eucalyptus_lirata_CANB_784082
+		Eucalyptus_ebbanoensis_subsp_ebbanoensis_ANBG_9806509
+		Eucalyptus_erythrocorys
+		Eucalyptus_jucunda_MC_10796
+		Eucalyptus_conveniens_48
+		Eucalyptus_gamophylla_MC_10612
+		Eucalyptus_odontocarpa_MC_10608
+		Eucalyptus_pleurocarpa
+		Eucalyptus_extrica_CANB_632680
+		Eucalyptus_gittinsii_subsp_gittinsii_MC_10801
+		Eucalyptus_eudesmioides_subsp_eudesmioides_MC_10780
+		Eucalyptus_roycei_328
+		Eucalyptus_gongylocarpa_MC_11097
+		Eucalyptus_tetrodonta_MC_10512
+		Eucalyptus_phoenicea_MC_10527
+		Eucalyptus_ceracea_CANB_551306
+		Eucalyptus_miniata_MC_10511
+		Eucalyptus_chartaboma_CANB_703248
+		Eucalyptus_gigantangion_CANB_454615
+		Eucalyptus_baileyana_Mt_Annan_892003
+		Eucalyptus_similis
+		Eucalyptus_tenuipes
+		Eucalyptus_cloeziana_241
+		Eucalyptus_suberea_MC_10904A
+		Eucalyptus_lateritica_CANB_794197
+		Eucalyptus_todtiana_CANB_530801
+		Eucalyptus_dolorosa_610751
+		Eucalyptus_patens_ANBG_55807
+		Eucalyptus_megacarpa_MC_11214
+		Eucalyptus_aquilina_CANB_459757
+		Eucalyptus_johnsoniana_CANB_794214
+		Eucalyptus_marginata_subsp_marginata_MC_10941
+		Eucalyptus_staeri_366
+		Eucalyptus_jacksonii_MC_10952
+		Eucalyptus_brevistylis_393
+		Eucalyptus_umbra_ANBG_60074
+		Eucalyptus_apothalassica_721925
+		Eucalyptus_carnea_718
+		Eucalyptus_rubiginosa_654
+		Eucalyptus_latisinensis_247
+		Eucalyptus_sphaerocarpa_606
+		Eucalyptus_acmenoides_624
+		Eucalyptus_amygdalina_CANB_481986
+		Eucalyptus_risdonii_620
+		Eucalyptus_conglomerata
+		Eucalyptus_nitida_744
+		Eucalyptus_regnans_ANBG_8501815
+		Eucalyptus_tenuiramis_CANB_692639
+		Eucalyptus_arenacea_MC_10652
+		Eucalyptus_tindaliae_ANBG_69620
+		Eucalyptus_remota_ANBG_9807783
+		Eucalyptus_lacrimans_251
+		Eucalyptus_elata_ANBG_73059
+		Eucalyptus_pauciflora_subsp_pauciflora_ANBG_9303293
+		Eucalyptus_radiata_subsp_radiata_732
+		Eucalyptus_fraxinoides_751650
+		Eucalyptus_oreades_747
+		Eucalyptus_burgessiana_ANBG_no_sn
+		Eucalyptus_cunninghamii_9806132
+		Eucalyptus_delegatensis_subsp_delegatensis_CANB_499445
+		Eucalyptus_fastigata_8603812
+		Eucalyptus_olsenii_762144
+		Eucalyptus_mitchelliana_635
+		Eucalyptus_croajingolensis_156
+		Eucalyptus_willisii_subsp_willisii_CANB_468525
+		Eucalyptus_langleyi_8801319
+		Eucalyptus_multicaulis_761635
+		Eucalyptus_triflora_ANBG_763500
+		Eucalyptus_mackintii_308
+		Eucalyptus_muelleriana_159
+		Eucalyptus_globoidea_729
+		Eucalyptus_baxteri_8701806
+		Eucalyptus_sieberi_ANBG_8411661
+		Eucalyptus_yangoura_AHT_E16
+		Eucalyptus_paliformis_CANB_460597
+		Eucalyptus_moorei_subsp_moorei_9600762
+		Eucalyptus_stellulata_9102880
+		Eucalyptus_stricta_309
+		Eucalyptus_gregsoniana_157
+		Eucalyptus_kybeanensis_AHT_E19
+		Eucalyptus_dives_ANBG_7809979
+		Eucalyptus_obliqua_Royal_Canberra_Golf_AHT21
+		Eucalyptus_sparsifolia_216
+		Eucalyptus_haemastoma_Mt_Annan_20051000
+		Eucalyptus_ligustrina_736
+		Eucalyptus_tenella_763
+		Eucalyptus_apiculata_613
+		Eucalyptus_ralla_250
+		Eucalyptus_capitellata_260
+		Eucalyptus_blaxlandii_8001329
+		Eucalyptus_bensonii_Mt_Annan_830911
+		Eucalyptus_eugenioides_578
+		Eucalyptus_deuaensis_151
+		Eucalyptus_macrorhyncha_subsp_macrorhyncha_761
+		Eucalyptus_caliginosa_298
+		Eucalyptus_pilularis_482
+		Eucalyptus_pyrocarpa_630205
+		Eucalyptus_luehmanniana_8300316
+		Eucalyptus_consideniana_219
+		Eucalyptus_piperita_subsp_piperita_ANBG_8411654
+		Eucalyptus_oblonga_255
+		Eucalyptus_williamsiana_261
+		Eucalyptus_agglomerata_673
+		Eucalyptus_andrewsii_subsp_andrewsii_8410679
+		Eucalyptus_boliviana_518876
+		Eucalyptus_mckieana_248
+		Eucalyptus_youmanii_73091
+		Eucalyptus_laevopinea_245
+		Eucalyptus_approximans_subsp_codonocarpa_69702
+		Eucalyptus_olida_738
+		Eucalyptus_racemosa_732766
+		Eucalyptus_victoriana_712
+		Eucalyptus_verrucata_715
+		Eucalyptus_serraensis_MC_10646
+		Eucalyptus_stenostoma_733
+		Eucalyptus_pulchella_612
+		Eucalyptus_calcicola_subsp_calcicola_176
+		Eucalyptus_diversifolia_subsp_diversifolia_390
+		Eucalyptus_pachyloma_426
+		Eucalyptus_insularis_275
+		Eucalyptus_coronata_658
+		Eucalyptus_pendens_CANB_794222
+		Eucalyptus_exilis_ANBG_8004906
+		Eucalyptus_platydisca_CANB_638520
+		Eucalyptus_planchoniana_236
+		Eucalyptus_ligulata_subsp_ligulata_721
+		Eucalyptus_buprestium_CANB_632568
+		Eucalyptus_acies_CANB_610687
+		Eucalyptus_erectifolia_CANB_794270
+		Eucalyptus_preissiana_subsp_preissiana_422
+		Eucalyptus_sepulcralis_CANB_378343
+		Eucalyptus_guilfoylei_MC_10953
+		Eucalyptus_microcorys_ANBG_491154
+		Eucalyptus_dorotoxylon_719
+		Eucalyptus_decurva_MC_10965
+		Eucalyptus_rhomboidea_476
+		Eucalyptus_squamosa_629
+		Eucalyptus_pachycalyx_subsp_pachycalyx_305
+		Eucalyptus_rameliana_648
+		Eucalyptus_tetraptera_AHT_E1
+		Eucalyptus_websteriana_subsp_websteriana_AHT_E3
+		Eucalyptus_oxymitra_278
+		Eucalyptus_lanepoolei_434
+		Eucalyptus_pyriformis_268
+		Eucalyptus_minniritchi_263
+		Eucalyptus_sessilis_549
+		Eucalyptus_pachyphylla_ANBG_8503938
+		Eucalyptus_kingsmillii_subsp_kingsmillii_Mt_Annan_866008
+		Eucalyptus_educta_CANB_461013
+		Eucalyptus_drummondii_subsp_drummondii_352
+		Eucalyptus_rhodantha_374
+		Eucalyptus_impensa_643
+		Eucalyptus_macrocarpa_subsp_macrocarpa_60
+		Eucalyptus_crucis_subsp_crucis_45
+		Eucalyptus_orbifolia_472
+		Eucalyptus_carnabyi_CANB_632591
+		Eucalyptus_leptopoda_subsp_leptopoda_CANB_519232
+		Eucalyptus_synandra_CANB_794049
+		Eucalyptus_burracoppinensis_CANB_794037
+		Eucalyptus_caesia_subsp_caesia_52
+		Eucalyptus_ewartiana_463
+		Eucalyptus_oldfieldii_MC_10775
+		Eucalyptus_glomerosa_538
+		Eucalyptus_youngiana_198
+		Eucalyptus_rosacea_645
+		Eucalyptus_diversicolor_ANBG_7901541
+		Eucalyptus_bakeri_567
+		Eucalyptus_cneorifolia_195
+		Eucalyptus_balanites_CANB_687715
+		Eucalyptus_communalis_502
+		Eucalyptus_decipiens_subsp_decipens_72
+		Eucalyptus_balanopelex_AHT_E22
+		Eucalyptus_recta_751
+		Eucalyptus_rugulata_42
+		Eucalyptus_kochii_subsp_kochii_657
+		Eucalyptus_dolichocera_710
+		Eucalyptus_moderata_274
+		Eucalyptus_foliosa_CANB_794339
+		Eucalyptus_ultima_697
+		Eucalyptus_mannensis_subsp_vespertina_321
+		Eucalyptus_jutsonii_subsp_jutsonii_187
+		Eucalyptus_misella_CANB_794329
+		Eucalyptus_angustissima_CANB_794337
+		Eucalyptus_quaerenda_CANB_794294
+		Eucalyptus_salmonophloia_CANB_564460
+		Eucalyptus_microschema_CANB_635056
+		Eucalyptus_balladoniensis_subsp_balladoniensis_CANB_586833
+		Eucalyptus_delicata_514
+		Eucalyptus_longicornis_491
+		Eucalyptus_brockwayi_474
+		Eucalyptus_aspersa_297
+		Eucalyptus_micranthera_334
+		Eucalyptus_neutra_284
+		Eucalyptus_urna_270
+		Eucalyptus_oleosa_subsp_oleosa_58
+		Eucalyptus_vokesensis_453
+		Eucalyptus_wyolensis_699
+		Eucalyptus_gillii_459
+		Eucalyptus_socialis_subsp_socialis_276
+		Eucalyptus_yalatensis_460
+		Eucalyptus_eremicola_subsp_eremicola_542
+		Eucalyptus_optima_708
+		Eucalyptus_yumbarrana_262
+		Eucalyptus_cooperiana_293
+		Eucalyptus_petrensis_456210
+		Eucalyptus_goniantha_subsp_goniantha_286
+		Eucalyptus_ornata_583
+		Eucalyptus_argyphea_59
+		Eucalyptus_purpurata_83
+		Eucalyptus_falcata_CANB_630597
+		Eucalyptus_kumarlensis_587
+		Eucalyptus_dissimulata_89
+		Eucalyptus_perangusta_51
+		Eucalyptus_minigwalica_184
+		Eucalyptus_salicola_32
+		Eucalyptus_wetarensis
+		Eucalyptus_urophylla_CANB_180346
+		Eucalyptus_uncinata_subsp_uncinata_91
+		Eucalyptus_arborella_361
+		Eucalyptus_latens_292
+		Eucalyptus_wandoo_subsp_wandoo_21
+		Eucalyptus_albida_46
+		Eucalyptus_formanii_AHT_E26
+		Eucalyptus_foecunda_320
+		Eucalyptus_fruticosa_30
+		Eucalyptus_horistes_353
+		Eucalyptus_rigidula_201
+		Eucalyptus_olivina_44
+		Eucalyptus_orthostemon_446
+		Eucalyptus_plauta_35
+		Eucalyptus_leptophylla_200
+		Eucalyptus_discreta_333
+		Eucalyptus_flocktoniae_subsp_flocktoniae_288
+		Eucalyptus_kessellii_subsp_kessellii_343
+		Eucalyptus_hypolaena_525
+		Eucalyptus_indurata_81
+		Eucalyptus_luculenta_705
+		Eucalyptus_capillosa_469
+		Eucalyptus_obesa_70
+		Eucalyptus_brachyandra_MC_10534
+		Eucalyptus_deglupta_BG_859
+		Eucalyptus_cosmophylla_ANBG_8409259
+		Eucalyptus_paludicola_ANBG_496820
+		Eucalyptus_grisea_690
+		Eucalyptus_rudis_351
+		Eucalyptus_cupularis_CANB_785563
+		Eucalyptus_houseana_MC_10570
+		Eucalyptus_apodophylla_subsp_provecta_CANB_7855329
+		Eucalyptus_herbertiana_CANB_785524
+		Eucalyptus_platyphylla
+		Eucalyptus_alba
+		Eucalyptus_mooreana_CANB_750218
+		Eucalyptus_longirostrata_649
+		Eucalyptus_canaliculata_698
+		Eucalyptus_pumila_227
+		Eucalyptus_prava_220
+		Eucalyptus_gregoriensis_503
+		Eucalyptus_scias_subsp_scias_745
+		Eucalyptus_pellita_ANBG_8413520
+		Eucalyptus_resinifera_subsp_resinifera_750
+		Eucalyptus_saligna_737
+		Eucalyptus_grandis
+		Eucalyptus_tintinnans_CANB_557752
+		Eucalyptus_brassiana_CANB_598285
+		Eucalyptus_amplifolia_subsp_amplifolia_225
+		Eucalyptus_camaldulensis_subsp_camaldulensis_ANBG_8401853
+		Eucalyptus_infera_570
+		Eucalyptus_interstans_256
+		Eucalyptus_blakelyi_211
+		Eucalyptus_gillenii_720
+		Eucalyptus_aggregata_580
+		Eucalyptus_lockyeri
+		Eucalyptus_nanderwairca_9707924
+		Eucalyptus_vicina
+		Eucalyptus_dealbata_212
+		Eucalyptus_nudicaulis_703
+		Eucalyptus_flindersii_AHT_E6
+		Eucalyptus_tereticornis_subsp_tereticornis_769
+		Eucalyptus_glaucina_626
+		Eucalyptus_dwyeri_9406593
+		Eucalyptus_morrisii_206
+		Eucalyptus_disclusa_232
+		Eucalyptus_subcrenulata_9702884
+		Eucalyptus_seeana_630
+		Eucalyptus_michaeliana_258
+		Eucalyptus_brunnea_619
+		Eucalyptus_parramattensis_subsp_parramattensis_161
+		Eucalyptus_leucophloia_subsp_euroa_500
+		Eucalyptus_hallii
+		Eucalyptus_major_602
+		Eucalyptus_neglecta_72027
+		Eucalyptus_deanei_623
+		Eucalyptus_botryoides_304
+		Eucalyptus_morrisbyi_618
+		Eucalyptus_quadrangulata_234
+		Eucalyptus_angophoroides_158
+		Eucalyptus_bridgesiana_257
+		Eucalyptus_malacoxylon_576
+		Eucalyptus_dunnii_691
+		Eucalyptus_retinens_259
+		Eucalyptus_cordata_ANBG_8804430
+		Eucalyptus_yarraensis_8005851
+		Eucalyptus_smithii_217
+		Eucalyptus_baeuerlenii_7810671
+		Eucalyptus_microneura_8603418
+		Eucalyptus_cadens_285
+		Eucalyptus_kitsoniana_110
+		Eucalyptus_macarthurii_ANBG_no_sn
+		Eucalyptus_mannifera_subsp_mannifera_610
+		Eucalyptus_nova_anglica_244
+		Eucalyptus_kartzoffiana_152
+		Eucalyptus_strzeleckii_subsp_strzeleckii_162
+		Eucalyptus_canobolensis_497
+		Eucalyptus_corticosa_ANBG_54339
+		Eucalyptus_recurva_ANBG
+		Eucalyptus_perriniana_742
+		Eucalyptus_vernicosa_ANBG_no_sn
+		Eucalyptus_ignorabilis_379
+		Eucalyptus_wilcoxii_168
+		Eucalyptus_alligatrix_subsp_alligatrix_167
+		Eucalyptus_rodwayi_62705
+		Eucalyptus_saxatilis_7906246
+		Eucalyptus_glaucescens_218
+		Eucalyptus_denticulata_378
+		Eucalyptus_fulgens_9707943
+		Eucalyptus_cinerea_subsp_triplex_8703938
+		Eucalyptus_quinniorum_9707932
+		Eucalyptus_parvula_164
+		Eucalyptus_pulverulenta_684
+		Eucalyptus_brookeriana_subsp_brookeriana_617
+		Eucalyptus_cephalocarpa_178
+		Eucalyptus_splendens_subsp_splendens_303
+		Eucalyptus_nortonii_664
+		Eucalyptus_goniocalyx_subsp_goniocalyx_669
+		Eucalyptus_cypellocarpa_665
+		Eucalyptus_longifolia
+		Eucalyptus_sturgissiana_376
+		Eucalyptus_badjensis_166
+		Eucalyptus_benthamii_423
+		Eucalyptus_alaticaulis_371
+		Eucalyptus_acaciiformis_214
+		Eucalyptus_aromaphloia_subsp_aromaphloia_CANB_564611
+		Eucalyptus_conspicua_113
+		Eucalyptus_ovata_var_ovata_ANBG_475702
+		Eucalyptus_rubida_subsp_rubida_ANBG_732895
+		Eucalyptus_elaeophloia_372
+		Eucalyptus_gunnii_ANBG_656505
+		Eucalyptus_dalrympleana_subsp_dalrympleana_ANBG_7804378
+		Eucalyptus_viminalis_subsp_viminalis_615
+		Eucalyptus_nitens_ANBG_651034
+		Eucalyptus_scoparia_ANBG_501278
+		Eucalyptus_elliptica_69616
+		Eucalyptus_nobilis_246
+		Eucalyptus_nicholii_209
+		Eucalyptus_imlayensis_ANBG_782689
+		Eucalyptus_globulus_subsp_globulus_ANBG_85001816
+		Eucalyptus_barberi_600
+		Eucalyptus_camphora_subsp_camphora_621
+		Eucalyptus_crenulata_307
+		Eucalyptus_propinqua_696
+		Eucalyptus_beardiana_CANB_632554
+		Eucalyptus_lucasii_MC_11098
+		Eucalyptus_petraea_63
+		Eucalyptus_cuprea_437
+		Eucalyptus_absita_354
+		Eucalyptus_argillacea_CANB_785537
+		Eucalyptus_tephrodes_385
+		Eucalyptus_sparsa_AHT_E24
+		Eucalyptus_pilbarensis_MC_11120
+		Eucalyptus_victrix_327
+		Eucalyptus_dura_775
+		Eucalyptus_xerothermica_183
+		Eucalyptus_rummeryi_735
+		Eucalyptus_fergusonii_subsp_fergusonii_740
+		Eucalyptus_albopurpurea_3
+		Eucalyptus_tetrapleura_746
+		Eucalyptus_fibrosa_subsp_fibrosa_631932
+		Eucalyptus_scopulorum_670
+		Eucalyptus_crebra_ANBG_732903
+		Eucalyptus_caleyi_subsp_caleyi_651
+		Eucalyptus_rhombica_596
+		Eucalyptus_decolor_486
+		Eucalyptus_panda_228
+		Eucalyptus_decorticans_73445
+		Eucalyptus_melanoleuca_605
+		Eucalyptus_polyanthemos_subsp_polyanthemos_659
+		Eucalyptus_fasciculosa_289
+		Eucalyptus_lucens_526
+		Eucalyptus_patellaris_CANB_558538
+		Eucalyptus_farinosa_CANB_738929
+		Eucalyptus_granitica_Mt_Annan_831413
+		Eucalyptus_beaniana_CANB_842071
+		Eucalyptus_acroleuca_CANB_593424
+		Eucalyptus_intertexta_204
+		Eucalyptus_magnificata_672
+		Eucalyptus_thozetiana_MC_10632
+		Eucalyptus_distans_CANB_409167
+		Eucalyptus_sicilifolia_8603421
+		Eucalyptus_tholiformis_AHT_E13
+		Eucalyptus_orgadophila_AHT_E10
+		Eucalyptus_dawsonii_762
+		Eucalyptus_conica_AHT_E9
+		Eucalyptus_rudderi_614
+		Eucalyptus_pruinosa_subsp_pruinosa_Mt_Annan_841760
+		Eucalyptus_howittiana_496
+		Eucalyptus_exilipes_CANB_582959
+		Eucalyptus_argophloia_773
+		Eucalyptus_populnea_MC_10633
+		Eucalyptus_viridis_767
+		Eucalyptus_limitaris_CANB_785552
+		Eucalyptus_chlorophylla_CANB_785565
+		Eucalyptus_coolabah_MC_10582
+		Eucalyptus_raveretiana_685
+		Eucalyptus_tectifica_CANB_785474
+		Eucalyptus_virens_598
+		Eucalyptus_atrata_8603434
+		Eucalyptus_quadricostata_8603516
+		Eucalyptus_ancophila_Mt_Annan_841467
+		Eucalyptus_melanophloia_subsp_melanophloia_207
+		Eucalyptus_paedoglauca_625
+		Eucalyptus_albens_661
+		Eucalyptus_pilligaensis_768
+		Eucalyptus_normantonensis_340
+		Eucalyptus_microcarpa_475
+		Eucalyptus_polybractea_760
+		Eucalyptus_cladocalyx_ANBG_652722
+		Eucalyptus_froggattii_479
+		Eucalyptus_bosistoana_671
+		Eucalyptus_leucoxylon_subsp_leucoxylon_716
+		Eucalyptus_tricarpa_8701791
+		Eucalyptus_largeana_CANB_470581
+		Eucalyptus_siderophloia_ANBG_7906137
+		Eucalyptus_paniculata_749
+		Eucalyptus_lansdowneana_652
+		Eucalyptus_porosa_MC_10664
+		Eucalyptus_baueriana_160
+		Eucalyptus_behriana_646
+		Eucalyptus_petiolaris_ANBG_8317297
+		Eucalyptus_melliodora_ANBG_662272
+		Eucalyptus_ochrophloia_CANB_785600
+		Eucalyptus_sideroxylon_750609
+		Eucalyptus_placita_AHT_E25
+		Eucalyptus_castrensis_ANBG_653995
+		Eucalyptus_microtheca_MC_10519
+		Eucalyptus_confluens_CANB_785543
+		Eucalyptus_brevifolia_CANB_785488
+		Eucalyptus_persistens_subsp_tardecidens_AHT_E2
+		Eucalyptus_leptophleba_CANB_597951
+		Eucalyptus_oligantha_MC_10571
+		Eucalyptus_koolpinensis_CANB_454611
+		Eucalyptus_obconica_CANB_644802
+		Eucalyptus_beyeriana_163
+		Eucalyptus_fusiformis_8604718
+		Eucalyptus_moluccana_50761
+		Eucalyptus_largiflorens_CANB_785604
+		Eucalyptus_cretata_271
+		Eucalyptus_canescens_subsp_canescens_181
+		Eucalyptus_phenax_subsp_phenax_375
+		Eucalyptus_dumosa_329
+		Eucalyptus_cyanophylla_338
+		Eucalyptus_fraseri_subsp_fraseri_36
+		Eucalyptus_gypsophila_543
+		Eucalyptus_pterocarpa_8
+		Eucalyptus_valens_478
+		Eucalyptus_conglobata_subsp_conglobata_5
+		Eucalyptus_nerthicola_34
+		Eucalyptus_frenchiana_11
+		Eucalyptus_distuberosa_subsp_aerata_10
+		Eucalyptus_pileata_17
+		Eucalyptus_spreta_40
+		Eucalyptus_torquata_MC_10738
+		Eucalyptus_clelandii_581
+		Eucalyptus_vittata_43
+		Eucalyptus_myriadena_591
+		Eucalyptus_percostata_281
+		Eucalyptus_tenuis_584
+		Eucalyptus_obtusiflora_MC_10760
+		Eucalyptus_georgei_subsp_georgei_323
+		Eucalyptus_corrugata_7
+		Eucalyptus_comitae_vallis_465
+		Eucalyptus_brachycorys_266
+		Eucalyptus_polita_22
+		Eucalyptus_kondininensis_85
+		Eucalyptus_argutifolia_AHT_E17
+		Eucalyptus_brachycalyx_508
+		Eucalyptus_oraria_28
+		Eucalyptus_celastroides_subsp_celastroides_196
+		Eucalyptus_calycogona_subsp_calycogona_362
+		Eucalyptus_prolixa_CANB_536396
+		Eucalyptus_yilgarnensis_AHT_E14
+		Eucalyptus_gracilis_202
+		Eucalyptus_quadrans_384
+		Eucalyptus_halophila_CANB_794338
+		Eucalyptus_ceratocorys_519
+		Eucalyptus_exigua_55
+		Eucalyptus_dundasii_528
+		Eucalyptus_macrandra_153
+		Eucalyptus_newbeyi_501
+		Eucalyptus_cornuta_65
+		Eucalyptus_burdettiana_510
+		Eucalyptus_conferruminata_subsp_recherche_114
+		Eucalyptus_mcquoidii_4
+		Eucalyptus_gomphocephala_357
+		Eucalyptus_incerata_728
+		Eucalyptus_megacornuta_84
+		Eucalyptus_tenera_440
+		Eucalyptus_goniocarpa_536
+		Eucalyptus_spathulata_subsp_spathulata_368
+		Eucalyptus_concinna_457
+		Eucalyptus_ophitica_607
+		Eucalyptus_brevipes_CANB_692658
+		Eucalyptus_subtilis_57
+		Eucalyptus_cerasiformis_CANB_586828
+		Eucalyptus_whitei_513
+		Eucalyptus_vegrandis_subsp_vegrandis_435
+		Eucalyptus_alipes_53
+		Eucalyptus_desmondensis_515
+		Eucalyptus_hebetifolia_467228
+		Eucalyptus_annulata_CANB_794263
+		Eucalyptus_redunca_507
+		Eucalyptus_lehmanii_subsp_lehmanii_531
+		Eucalyptus_astringens_subsp_astringens_68
+		Eucalyptus_blaxellii_MC_11172
+		Eucalyptus_utilis_62
+		Eucalyptus_prominens_373
+		Eucalyptus_carnei_757
+		Eucalyptus_stricklandii_18
+		Eucalyptus_grossa_CANB_794307
+		Eucalyptus_kruseana_129
+		Eucalyptus_brachyphylla_9807043
+		Eucalyptus_pruiniramis_MC_11189
+		Eucalyptus_accedens_346
+		Eucalyptus_stowardii_CANB_790458
+		Eucalyptus_protensa_14
+		Eucalyptus_tumida_CANB_794343
+		Eucalyptus_salubris_589
+		Eucalyptus_terebra_31
+		Eucalyptus_effusa_subsp_effusa_39
+		Eucalyptus_creta_29
+		Eucalyptus_campaspe_522
+		Eucalyptus_jimberlanica_16
+		Eucalyptus_diptera_535
+		Eucalyptus_ravida_458
+		Eucalyptus_medialis_AHT_E20
+		Eucalyptus_livida_CANB_794326
+		Eucalyptus_pluricaulis_subsp_pluricaulis_296
+		Eucalyptus_abdita_CANB_687864
+		Eucalyptus_cyclostoma_9903101
+		Eucalyptus_gardneri_subsp_gardneri_593
+		Eucalyptus_densa_subsp_densa_363
+		Eucalyptus_extensa_33
+		Eucalyptus_arachnae_518
+		Eucalyptus_melanophitra_582
+		Eucalyptus_clivicola_66
+		Eucalyptus_phaenophylla_subsp_phaenophylla_CANB_794282
+		Eucalyptus_semota_530
+		Eucalyptus_praetermissa_CANB_610680
+		Eucalyptus_histophylla_12
+		Eucalyptus_thamnoides_86
+		Eucalyptus_tortilis_588
+		Eucalyptus_xanthonema_subsp_xanthonema_CANB_794264
+		Eucalyptus_loxophleba_subsp_loxophleba_ANBG_9205090
+		Eucalyptus_zopherophloia_AHT_E12
+		Eucalyptus_articulata_186
+		Eucalyptus_laeliae_337
+		Eucalyptus_wubinensis_50
+		Eucalyptus_trivalvis_AHT_E5
+		Eucalyptus_talyuberlup_724
+		Eucalyptus_erythronema_subsp_erythronema_19
+		Eucalyptus_nutans_722
+		Eucalyptus_cernua_436
+		Eucalyptus_vesiculosa_87
+		Eucalyptus_occidentalis_430
+		Eucalyptus_proxima_432
+		Eucalyptus_eremophila_CANB_794301
+		Eucalyptus_mimica_subsp_mimica_534
+		Eucalyptus_aspratilis_AHT_E18
+		Eucalyptus_dielsii_74
+		Eucalyptus_suggrandis_subsp_suggrandis_82
+		Eucalyptus_sargentii_subsp_sargentii_524
+		Eucalyptus_steedmanii_585
+		Eucalyptus_diminuta_438
+		Eucalyptus_cylindriflora_CANB_794327
+		Eucalyptus_depauperata_CANB_794299
+		Eucalyptus_leptocalyx_subsp_leptocalyx_73
+		Eucalyptus_subangusta_subsp_subangusta_24
+		Eucalyptus_aequioperta_23
+		Eucalyptus_woodwardii_MC_10742
+		Eucalyptus_rigens_76
+		Eucalyptus_assimilans_269
+		Eucalyptus_lesouefii_38
+		Eucalyptus_platycorys_subsp_platycorys_54
+		Eucalyptus_captiosa_CANB_799340
+		Eucalyptus_cuspidata_6
+		Eucalyptus_incrassata_283
+		Eucalyptus_singularis_AHT_E15
+		Eucalyptus_angulosa_383
+		Eucalyptus_dolichorhyncha_192
+		Eucalyptus_retusa_726
+		Eucalyptus_stoatei_191
+		Eucalyptus_forrestiana_MC_11265
+		Eucalyptus_transcontinentalis_188
+		Eucalyptus_melanoxylon_586
+		Eucalyptus_griffithsii_15
+		Eucalyptus_deflexa_364
+		Eucalyptus_famelica_AHT_E23
+		Eucalyptus_calcareana_455
+		Eucalyptus_surgens_190
+		Eucalyptus_ovularis_355
+		Eucalyptus_merrickiae_CANB_794336
+		Eucalyptus_rugosa_61
+		Eucalyptus_litorea_341
+		Eucalyptus_scyphocalyx_AHT_E7
+		Eucalyptus_pimpiniana_462
+		Eucalyptus_cylindrocarpa_AHT_E8
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Angophora_melanoxylon_509,
+		2	Angophora_exul_573034,
+		3	Angophora_robur_LAN056,
+		4	Angophora_woodsiana_LAN058,
+		5	Angophora_floribunda_LAN107,
+		6	Angophora_bakeri_subsp_bakeri_LAN103,
+		7	Angophora_hispida_LAN009,
+		8	Angophora_costata_subsp_costata_LAN043,
+		9	Angophora_inopina_LAN025,
+		10	Angophora_subvelutina_LAN059,
+		11	Corymbia_eximia_ANBG_62889,
+		12	Corymbia_maculata_ANBG_7800470,
+		13	Corymbia_henryi_ANBG_8910948,
+		14	Corymbia_citriodora_231,
+		15	Corymbia_variegata,
+		16	Corymbia_aparrerinja_MC_10615,
+		17	Corymbia_papuana_CANB_583122,
+		18	Corymbia_dallachiana_CANB_697829,
+		19	Corymbia_grandifolia_CANB_739034,
+		20	Corymbia_torelliana_Mt_Annan_981102,
+		21	Corymbia_tessellaris_324,
+		22	Corymbia_bloxsomei_238,
+		23	Corymbia_peltata_493,
+		24	Corymbia_leichhardtii_Mt_Annan_891967,
+		25	Corymbia_leptoloma_694,
+		26	Corymbia_aureola_CANB_582839,
+		27	Corymbia_bunites_229,
+		28	Corymbia_watsoniana_subsp_watsoniana_ANBG_68771,
+		29	Corymbia_dimorpha,
+		30	Corymbia_catenaria_240,
+		31	Corymbia_petalophylla_Mt_Annan_892019,
+		32	Corymbia_scabrida_Mt_Annan_891868,
+		33	Corymbia_candida_subsp_dispodes_454,
+		34	Corymbia_flavescens_MC_10596,
+		35	Corymbia_ferriticola_MC_11117,
+		36	Corymbia_arafurica_CANB_557707,
+		37	Corymbia_confertiflora_CANB_785485,
+		38	Corymbia_aspera_CANB_785505,
+		39	Corymbia_gilbertensis_CANB_739029,
+		40	Corymbia_blakei_CANB_582767,
+		41	Corymbia_polysciada_CANB_785479,
+		42	Corymbia_pauciseta_CANB_448845,
+		43	Corymbia_bella_MC_10518,
+		44	Corymbia_dendromerinx_CANB_644448,
+		45	Corymbia_torta_CANB_644409,
+		46	Corymbia_hylandii_CANB_738922,
+		47	Corymbia_porrecta_CANB_628340,
+		48	Corymbia_porphyritica,
+		49	Corymbia_lenziana_CANB_794064,
+		50	Corymbia_stockeri_subsp_stockeri_CANB_739042,
+		51	Corymbia_opaca,
+		52	Corymbia_opacula,
+		53	Corymbia_pachycarpa_CANB_785564,
+		54	Corymbia_rhodops_CANB_598277,
+		55	Corymbia_terminalis_MC_10579,
+		56	Corymbia_dichromophloia_MC_10528,
+		57	Corymbia_latifolia_CANB_785515,
+		58	Corymbia_abbreviata_CANB_459002,
+		59	Corymbia_novaguineesis_CANB_738912,
+		60	Corymbia_clarksoniana_ANBG_643951,
+		61	Corymbia_jacobsiana_CANB_558528,
+		62	Corymbia_lamprophylla_Mt_Annan_842093,
+		63	Corymbia_ptychocarpa_subsp_ptychocarpa_MC_10536,
+		64	Corymbia_intermedia_230,
+		65	Corymbia_xanthope,
+		66	Corymbia_brachycarpa_Mt_Annan_891988,
+		67	Corymbia_hamersleyana_MC_11116,
+		68	Corymbia_arenaria_MC_10558,
+		69	Corymbia_chippendalei_CANB_513580,
+		70	Corymbia_dolichocarpa,
+		71	Corymbia_polycarpa_CANB_785478,
+		72	Corymbia_papillosa_CANB_564789,
+		73	Corymbia_erythrophloia_Mt_Annan_891984,
+		74	Corymbia_ferruginea_subsp_ferruginea_MC_10538,
+		75	Corymbia_dampieri,
+		76	Corymbia_foelscheana_MC_10508,
+		77	Corymbia_greeniana_MC_10557,
+		78	Corymbia_collina_MC_10588,
+		79	Corymbia_nesophila_MC_10553,
+		80	Corymbia_bleeseri_MC_10516,
+		81	Corymbia_cadophora_subsp_cadophora_MC_10577,
+		82	Corymbia_dunlopiana_CANB_640209,
+		83	Corymbia_eremaea_subsp_eremaea_280,
+		84	Corymbia_deserticola_subsp_deserticola_MC_11111,
+		85	Corymbia_plena_CANB_660150,
+		86	Corymbia_ligans_subsp_ligans,
+		87	Corymbia_zygophylla_MC_10581,
+		88	Corymbia_ellipsoidea_Mt_Annan_904974,
+		89	Corymbia_hendersonii_252,
+		90	Corymbia_gummifera_680,
+		91	Corymbia_trachyphloia_ANBG_60750,
+		92	Corymbia_ficifolia_ANBG_c208,
+		93	Corymbia_calophylla_377,
+		94	Corymbia_haematoxylon_380,
+		95	Corymbia_abergiana_633,
+		96	Eucalyptus_curtisii_632,
+		97	Eucalyptus_lirata_CANB_784082,
+		98	Eucalyptus_ebbanoensis_subsp_ebbanoensis_ANBG_9806509,
+		99	Eucalyptus_erythrocorys,
+		100	Eucalyptus_jucunda_MC_10796,
+		101	Eucalyptus_conveniens_48,
+		102	Eucalyptus_gamophylla_MC_10612,
+		103	Eucalyptus_odontocarpa_MC_10608,
+		104	Eucalyptus_pleurocarpa,
+		105	Eucalyptus_extrica_CANB_632680,
+		106	Eucalyptus_gittinsii_subsp_gittinsii_MC_10801,
+		107	Eucalyptus_eudesmioides_subsp_eudesmioides_MC_10780,
+		108	Eucalyptus_roycei_328,
+		109	Eucalyptus_gongylocarpa_MC_11097,
+		110	Eucalyptus_tetrodonta_MC_10512,
+		111	Eucalyptus_phoenicea_MC_10527,
+		112	Eucalyptus_ceracea_CANB_551306,
+		113	Eucalyptus_miniata_MC_10511,
+		114	Eucalyptus_chartaboma_CANB_703248,
+		115	Eucalyptus_gigantangion_CANB_454615,
+		116	Eucalyptus_baileyana_Mt_Annan_892003,
+		117	Eucalyptus_similis,
+		118	Eucalyptus_tenuipes,
+		119	Eucalyptus_cloeziana_241,
+		120	Eucalyptus_suberea_MC_10904A,
+		121	Eucalyptus_lateritica_CANB_794197,
+		122	Eucalyptus_todtiana_CANB_530801,
+		123	Eucalyptus_dolorosa_610751,
+		124	Eucalyptus_patens_ANBG_55807,
+		125	Eucalyptus_megacarpa_MC_11214,
+		126	Eucalyptus_aquilina_CANB_459757,
+		127	Eucalyptus_johnsoniana_CANB_794214,
+		128	Eucalyptus_marginata_subsp_marginata_MC_10941,
+		129	Eucalyptus_staeri_366,
+		130	Eucalyptus_jacksonii_MC_10952,
+		131	Eucalyptus_brevistylis_393,
+		132	Eucalyptus_umbra_ANBG_60074,
+		133	Eucalyptus_apothalassica_721925,
+		134	Eucalyptus_carnea_718,
+		135	Eucalyptus_rubiginosa_654,
+		136	Eucalyptus_latisinensis_247,
+		137	Eucalyptus_sphaerocarpa_606,
+		138	Eucalyptus_acmenoides_624,
+		139	Eucalyptus_amygdalina_CANB_481986,
+		140	Eucalyptus_risdonii_620,
+		141	Eucalyptus_conglomerata,
+		142	Eucalyptus_nitida_744,
+		143	Eucalyptus_regnans_ANBG_8501815,
+		144	Eucalyptus_tenuiramis_CANB_692639,
+		145	Eucalyptus_arenacea_MC_10652,
+		146	Eucalyptus_tindaliae_ANBG_69620,
+		147	Eucalyptus_remota_ANBG_9807783,
+		148	Eucalyptus_lacrimans_251,
+		149	Eucalyptus_elata_ANBG_73059,
+		150	Eucalyptus_pauciflora_subsp_pauciflora_ANBG_9303293,
+		151	Eucalyptus_radiata_subsp_radiata_732,
+		152	Eucalyptus_fraxinoides_751650,
+		153	Eucalyptus_oreades_747,
+		154	Eucalyptus_burgessiana_ANBG_no_sn,
+		155	Eucalyptus_cunninghamii_9806132,
+		156	Eucalyptus_delegatensis_subsp_delegatensis_CANB_499445,
+		157	Eucalyptus_fastigata_8603812,
+		158	Eucalyptus_olsenii_762144,
+		159	Eucalyptus_mitchelliana_635,
+		160	Eucalyptus_croajingolensis_156,
+		161	Eucalyptus_willisii_subsp_willisii_CANB_468525,
+		162	Eucalyptus_langleyi_8801319,
+		163	Eucalyptus_multicaulis_761635,
+		164	Eucalyptus_triflora_ANBG_763500,
+		165	Eucalyptus_mackintii_308,
+		166	Eucalyptus_muelleriana_159,
+		167	Eucalyptus_globoidea_729,
+		168	Eucalyptus_baxteri_8701806,
+		169	Eucalyptus_sieberi_ANBG_8411661,
+		170	Eucalyptus_yangoura_AHT_E16,
+		171	Eucalyptus_paliformis_CANB_460597,
+		172	Eucalyptus_moorei_subsp_moorei_9600762,
+		173	Eucalyptus_stellulata_9102880,
+		174	Eucalyptus_stricta_309,
+		175	Eucalyptus_gregsoniana_157,
+		176	Eucalyptus_kybeanensis_AHT_E19,
+		177	Eucalyptus_dives_ANBG_7809979,
+		178	Eucalyptus_obliqua_Royal_Canberra_Golf_AHT21,
+		179	Eucalyptus_sparsifolia_216,
+		180	Eucalyptus_haemastoma_Mt_Annan_20051000,
+		181	Eucalyptus_ligustrina_736,
+		182	Eucalyptus_tenella_763,
+		183	Eucalyptus_apiculata_613,
+		184	Eucalyptus_ralla_250,
+		185	Eucalyptus_capitellata_260,
+		186	Eucalyptus_blaxlandii_8001329,
+		187	Eucalyptus_bensonii_Mt_Annan_830911,
+		188	Eucalyptus_eugenioides_578,
+		189	Eucalyptus_deuaensis_151,
+		190	Eucalyptus_macrorhyncha_subsp_macrorhyncha_761,
+		191	Eucalyptus_caliginosa_298,
+		192	Eucalyptus_pilularis_482,
+		193	Eucalyptus_pyrocarpa_630205,
+		194	Eucalyptus_luehmanniana_8300316,
+		195	Eucalyptus_consideniana_219,
+		196	Eucalyptus_piperita_subsp_piperita_ANBG_8411654,
+		197	Eucalyptus_oblonga_255,
+		198	Eucalyptus_williamsiana_261,
+		199	Eucalyptus_agglomerata_673,
+		200	Eucalyptus_andrewsii_subsp_andrewsii_8410679,
+		201	Eucalyptus_boliviana_518876,
+		202	Eucalyptus_mckieana_248,
+		203	Eucalyptus_youmanii_73091,
+		204	Eucalyptus_laevopinea_245,
+		205	Eucalyptus_approximans_subsp_codonocarpa_69702,
+		206	Eucalyptus_olida_738,
+		207	Eucalyptus_racemosa_732766,
+		208	Eucalyptus_victoriana_712,
+		209	Eucalyptus_verrucata_715,
+		210	Eucalyptus_serraensis_MC_10646,
+		211	Eucalyptus_stenostoma_733,
+		212	Eucalyptus_pulchella_612,
+		213	Eucalyptus_calcicola_subsp_calcicola_176,
+		214	Eucalyptus_diversifolia_subsp_diversifolia_390,
+		215	Eucalyptus_pachyloma_426,
+		216	Eucalyptus_insularis_275,
+		217	Eucalyptus_coronata_658,
+		218	Eucalyptus_pendens_CANB_794222,
+		219	Eucalyptus_exilis_ANBG_8004906,
+		220	Eucalyptus_platydisca_CANB_638520,
+		221	Eucalyptus_planchoniana_236,
+		222	Eucalyptus_ligulata_subsp_ligulata_721,
+		223	Eucalyptus_buprestium_CANB_632568,
+		224	Eucalyptus_acies_CANB_610687,
+		225	Eucalyptus_erectifolia_CANB_794270,
+		226	Eucalyptus_preissiana_subsp_preissiana_422,
+		227	Eucalyptus_sepulcralis_CANB_378343,
+		228	Eucalyptus_guilfoylei_MC_10953,
+		229	Eucalyptus_microcorys_ANBG_491154,
+		230	Eucalyptus_dorotoxylon_719,
+		231	Eucalyptus_decurva_MC_10965,
+		232	Eucalyptus_rhomboidea_476,
+		233	Eucalyptus_squamosa_629,
+		234	Eucalyptus_pachycalyx_subsp_pachycalyx_305,
+		235	Eucalyptus_rameliana_648,
+		236	Eucalyptus_tetraptera_AHT_E1,
+		237	Eucalyptus_websteriana_subsp_websteriana_AHT_E3,
+		238	Eucalyptus_oxymitra_278,
+		239	Eucalyptus_lanepoolei_434,
+		240	Eucalyptus_pyriformis_268,
+		241	Eucalyptus_minniritchi_263,
+		242	Eucalyptus_sessilis_549,
+		243	Eucalyptus_pachyphylla_ANBG_8503938,
+		244	Eucalyptus_kingsmillii_subsp_kingsmillii_Mt_Annan_866008,
+		245	Eucalyptus_educta_CANB_461013,
+		246	Eucalyptus_drummondii_subsp_drummondii_352,
+		247	Eucalyptus_rhodantha_374,
+		248	Eucalyptus_impensa_643,
+		249	Eucalyptus_macrocarpa_subsp_macrocarpa_60,
+		250	Eucalyptus_crucis_subsp_crucis_45,
+		251	Eucalyptus_orbifolia_472,
+		252	Eucalyptus_carnabyi_CANB_632591,
+		253	Eucalyptus_leptopoda_subsp_leptopoda_CANB_519232,
+		254	Eucalyptus_synandra_CANB_794049,
+		255	Eucalyptus_burracoppinensis_CANB_794037,
+		256	Eucalyptus_caesia_subsp_caesia_52,
+		257	Eucalyptus_ewartiana_463,
+		258	Eucalyptus_oldfieldii_MC_10775,
+		259	Eucalyptus_glomerosa_538,
+		260	Eucalyptus_youngiana_198,
+		261	Eucalyptus_rosacea_645,
+		262	Eucalyptus_diversicolor_ANBG_7901541,
+		263	Eucalyptus_bakeri_567,
+		264	Eucalyptus_cneorifolia_195,
+		265	Eucalyptus_balanites_CANB_687715,
+		266	Eucalyptus_communalis_502,
+		267	Eucalyptus_decipiens_subsp_decipens_72,
+		268	Eucalyptus_balanopelex_AHT_E22,
+		269	Eucalyptus_recta_751,
+		270	Eucalyptus_rugulata_42,
+		271	Eucalyptus_kochii_subsp_kochii_657,
+		272	Eucalyptus_dolichocera_710,
+		273	Eucalyptus_moderata_274,
+		274	Eucalyptus_foliosa_CANB_794339,
+		275	Eucalyptus_ultima_697,
+		276	Eucalyptus_mannensis_subsp_vespertina_321,
+		277	Eucalyptus_jutsonii_subsp_jutsonii_187,
+		278	Eucalyptus_misella_CANB_794329,
+		279	Eucalyptus_angustissima_CANB_794337,
+		280	Eucalyptus_quaerenda_CANB_794294,
+		281	Eucalyptus_salmonophloia_CANB_564460,
+		282	Eucalyptus_microschema_CANB_635056,
+		283	Eucalyptus_balladoniensis_subsp_balladoniensis_CANB_586833,
+		284	Eucalyptus_delicata_514,
+		285	Eucalyptus_longicornis_491,
+		286	Eucalyptus_brockwayi_474,
+		287	Eucalyptus_aspersa_297,
+		288	Eucalyptus_micranthera_334,
+		289	Eucalyptus_neutra_284,
+		290	Eucalyptus_urna_270,
+		291	Eucalyptus_oleosa_subsp_oleosa_58,
+		292	Eucalyptus_vokesensis_453,
+		293	Eucalyptus_wyolensis_699,
+		294	Eucalyptus_gillii_459,
+		295	Eucalyptus_socialis_subsp_socialis_276,
+		296	Eucalyptus_yalatensis_460,
+		297	Eucalyptus_eremicola_subsp_eremicola_542,
+		298	Eucalyptus_optima_708,
+		299	Eucalyptus_yumbarrana_262,
+		300	Eucalyptus_cooperiana_293,
+		301	Eucalyptus_petrensis_456210,
+		302	Eucalyptus_goniantha_subsp_goniantha_286,
+		303	Eucalyptus_ornata_583,
+		304	Eucalyptus_argyphea_59,
+		305	Eucalyptus_purpurata_83,
+		306	Eucalyptus_falcata_CANB_630597,
+		307	Eucalyptus_kumarlensis_587,
+		308	Eucalyptus_dissimulata_89,
+		309	Eucalyptus_perangusta_51,
+		310	Eucalyptus_minigwalica_184,
+		311	Eucalyptus_salicola_32,
+		312	Eucalyptus_wetarensis,
+		313	Eucalyptus_urophylla_CANB_180346,
+		314	Eucalyptus_uncinata_subsp_uncinata_91,
+		315	Eucalyptus_arborella_361,
+		316	Eucalyptus_latens_292,
+		317	Eucalyptus_wandoo_subsp_wandoo_21,
+		318	Eucalyptus_albida_46,
+		319	Eucalyptus_formanii_AHT_E26,
+		320	Eucalyptus_foecunda_320,
+		321	Eucalyptus_fruticosa_30,
+		322	Eucalyptus_horistes_353,
+		323	Eucalyptus_rigidula_201,
+		324	Eucalyptus_olivina_44,
+		325	Eucalyptus_orthostemon_446,
+		326	Eucalyptus_plauta_35,
+		327	Eucalyptus_leptophylla_200,
+		328	Eucalyptus_discreta_333,
+		329	Eucalyptus_flocktoniae_subsp_flocktoniae_288,
+		330	Eucalyptus_kessellii_subsp_kessellii_343,
+		331	Eucalyptus_hypolaena_525,
+		332	Eucalyptus_indurata_81,
+		333	Eucalyptus_luculenta_705,
+		334	Eucalyptus_capillosa_469,
+		335	Eucalyptus_obesa_70,
+		336	Eucalyptus_brachyandra_MC_10534,
+		337	Eucalyptus_deglupta_BG_859,
+		338	Eucalyptus_cosmophylla_ANBG_8409259,
+		339	Eucalyptus_paludicola_ANBG_496820,
+		340	Eucalyptus_grisea_690,
+		341	Eucalyptus_rudis_351,
+		342	Eucalyptus_cupularis_CANB_785563,
+		343	Eucalyptus_houseana_MC_10570,
+		344	Eucalyptus_apodophylla_subsp_provecta_CANB_7855329,
+		345	Eucalyptus_herbertiana_CANB_785524,
+		346	Eucalyptus_platyphylla,
+		347	Eucalyptus_alba,
+		348	Eucalyptus_mooreana_CANB_750218,
+		349	Eucalyptus_longirostrata_649,
+		350	Eucalyptus_canaliculata_698,
+		351	Eucalyptus_pumila_227,
+		352	Eucalyptus_prava_220,
+		353	Eucalyptus_gregoriensis_503,
+		354	Eucalyptus_scias_subsp_scias_745,
+		355	Eucalyptus_pellita_ANBG_8413520,
+		356	Eucalyptus_resinifera_subsp_resinifera_750,
+		357	Eucalyptus_saligna_737,
+		358	Eucalyptus_grandis,
+		359	Eucalyptus_tintinnans_CANB_557752,
+		360	Eucalyptus_brassiana_CANB_598285,
+		361	Eucalyptus_amplifolia_subsp_amplifolia_225,
+		362	Eucalyptus_camaldulensis_subsp_camaldulensis_ANBG_8401853,
+		363	Eucalyptus_infera_570,
+		364	Eucalyptus_interstans_256,
+		365	Eucalyptus_blakelyi_211,
+		366	Eucalyptus_gillenii_720,
+		367	Eucalyptus_aggregata_580,
+		368	Eucalyptus_lockyeri,
+		369	Eucalyptus_nanderwairca_9707924,
+		370	Eucalyptus_vicina,
+		371	Eucalyptus_dealbata_212,
+		372	Eucalyptus_nudicaulis_703,
+		373	Eucalyptus_flindersii_AHT_E6,
+		374	Eucalyptus_tereticornis_subsp_tereticornis_769,
+		375	Eucalyptus_glaucina_626,
+		376	Eucalyptus_dwyeri_9406593,
+		377	Eucalyptus_morrisii_206,
+		378	Eucalyptus_disclusa_232,
+		379	Eucalyptus_subcrenulata_9702884,
+		380	Eucalyptus_seeana_630,
+		381	Eucalyptus_michaeliana_258,
+		382	Eucalyptus_brunnea_619,
+		383	Eucalyptus_parramattensis_subsp_parramattensis_161,
+		384	Eucalyptus_leucophloia_subsp_euroa_500,
+		385	Eucalyptus_hallii,
+		386	Eucalyptus_major_602,
+		387	Eucalyptus_neglecta_72027,
+		388	Eucalyptus_deanei_623,
+		389	Eucalyptus_botryoides_304,
+		390	Eucalyptus_morrisbyi_618,
+		391	Eucalyptus_quadrangulata_234,
+		392	Eucalyptus_angophoroides_158,
+		393	Eucalyptus_bridgesiana_257,
+		394	Eucalyptus_malacoxylon_576,
+		395	Eucalyptus_dunnii_691,
+		396	Eucalyptus_retinens_259,
+		397	Eucalyptus_cordata_ANBG_8804430,
+		398	Eucalyptus_yarraensis_8005851,
+		399	Eucalyptus_smithii_217,
+		400	Eucalyptus_baeuerlenii_7810671,
+		401	Eucalyptus_microneura_8603418,
+		402	Eucalyptus_cadens_285,
+		403	Eucalyptus_kitsoniana_110,
+		404	Eucalyptus_macarthurii_ANBG_no_sn,
+		405	Eucalyptus_mannifera_subsp_mannifera_610,
+		406	Eucalyptus_nova_anglica_244,
+		407	Eucalyptus_kartzoffiana_152,
+		408	Eucalyptus_strzeleckii_subsp_strzeleckii_162,
+		409	Eucalyptus_canobolensis_497,
+		410	Eucalyptus_corticosa_ANBG_54339,
+		411	Eucalyptus_recurva_ANBG,
+		412	Eucalyptus_perriniana_742,
+		413	Eucalyptus_vernicosa_ANBG_no_sn,
+		414	Eucalyptus_ignorabilis_379,
+		415	Eucalyptus_wilcoxii_168,
+		416	Eucalyptus_alligatrix_subsp_alligatrix_167,
+		417	Eucalyptus_rodwayi_62705,
+		418	Eucalyptus_saxatilis_7906246,
+		419	Eucalyptus_glaucescens_218,
+		420	Eucalyptus_denticulata_378,
+		421	Eucalyptus_fulgens_9707943,
+		422	Eucalyptus_cinerea_subsp_triplex_8703938,
+		423	Eucalyptus_quinniorum_9707932,
+		424	Eucalyptus_parvula_164,
+		425	Eucalyptus_pulverulenta_684,
+		426	Eucalyptus_brookeriana_subsp_brookeriana_617,
+		427	Eucalyptus_cephalocarpa_178,
+		428	Eucalyptus_splendens_subsp_splendens_303,
+		429	Eucalyptus_nortonii_664,
+		430	Eucalyptus_goniocalyx_subsp_goniocalyx_669,
+		431	Eucalyptus_cypellocarpa_665,
+		432	Eucalyptus_longifolia,
+		433	Eucalyptus_sturgissiana_376,
+		434	Eucalyptus_badjensis_166,
+		435	Eucalyptus_benthamii_423,
+		436	Eucalyptus_alaticaulis_371,
+		437	Eucalyptus_acaciiformis_214,
+		438	Eucalyptus_aromaphloia_subsp_aromaphloia_CANB_564611,
+		439	Eucalyptus_conspicua_113,
+		440	Eucalyptus_ovata_var_ovata_ANBG_475702,
+		441	Eucalyptus_rubida_subsp_rubida_ANBG_732895,
+		442	Eucalyptus_elaeophloia_372,
+		443	Eucalyptus_gunnii_ANBG_656505,
+		444	Eucalyptus_dalrympleana_subsp_dalrympleana_ANBG_7804378,
+		445	Eucalyptus_viminalis_subsp_viminalis_615,
+		446	Eucalyptus_nitens_ANBG_651034,
+		447	Eucalyptus_scoparia_ANBG_501278,
+		448	Eucalyptus_elliptica_69616,
+		449	Eucalyptus_nobilis_246,
+		450	Eucalyptus_nicholii_209,
+		451	Eucalyptus_imlayensis_ANBG_782689,
+		452	Eucalyptus_globulus_subsp_globulus_ANBG_85001816,
+		453	Eucalyptus_barberi_600,
+		454	Eucalyptus_camphora_subsp_camphora_621,
+		455	Eucalyptus_crenulata_307,
+		456	Eucalyptus_propinqua_696,
+		457	Eucalyptus_beardiana_CANB_632554,
+		458	Eucalyptus_lucasii_MC_11098,
+		459	Eucalyptus_petraea_63,
+		460	Eucalyptus_cuprea_437,
+		461	Eucalyptus_absita_354,
+		462	Eucalyptus_argillacea_CANB_785537,
+		463	Eucalyptus_tephrodes_385,
+		464	Eucalyptus_sparsa_AHT_E24,
+		465	Eucalyptus_pilbarensis_MC_11120,
+		466	Eucalyptus_victrix_327,
+		467	Eucalyptus_dura_775,
+		468	Eucalyptus_xerothermica_183,
+		469	Eucalyptus_rummeryi_735,
+		470	Eucalyptus_fergusonii_subsp_fergusonii_740,
+		471	Eucalyptus_albopurpurea_3,
+		472	Eucalyptus_tetrapleura_746,
+		473	Eucalyptus_fibrosa_subsp_fibrosa_631932,
+		474	Eucalyptus_scopulorum_670,
+		475	Eucalyptus_crebra_ANBG_732903,
+		476	Eucalyptus_caleyi_subsp_caleyi_651,
+		477	Eucalyptus_rhombica_596,
+		478	Eucalyptus_decolor_486,
+		479	Eucalyptus_panda_228,
+		480	Eucalyptus_decorticans_73445,
+		481	Eucalyptus_melanoleuca_605,
+		482	Eucalyptus_polyanthemos_subsp_polyanthemos_659,
+		483	Eucalyptus_fasciculosa_289,
+		484	Eucalyptus_lucens_526,
+		485	Eucalyptus_patellaris_CANB_558538,
+		486	Eucalyptus_farinosa_CANB_738929,
+		487	Eucalyptus_granitica_Mt_Annan_831413,
+		488	Eucalyptus_beaniana_CANB_842071,
+		489	Eucalyptus_acroleuca_CANB_593424,
+		490	Eucalyptus_intertexta_204,
+		491	Eucalyptus_magnificata_672,
+		492	Eucalyptus_thozetiana_MC_10632,
+		493	Eucalyptus_distans_CANB_409167,
+		494	Eucalyptus_sicilifolia_8603421,
+		495	Eucalyptus_tholiformis_AHT_E13,
+		496	Eucalyptus_orgadophila_AHT_E10,
+		497	Eucalyptus_dawsonii_762,
+		498	Eucalyptus_conica_AHT_E9,
+		499	Eucalyptus_rudderi_614,
+		500	Eucalyptus_pruinosa_subsp_pruinosa_Mt_Annan_841760,
+		501	Eucalyptus_howittiana_496,
+		502	Eucalyptus_exilipes_CANB_582959,
+		503	Eucalyptus_argophloia_773,
+		504	Eucalyptus_populnea_MC_10633,
+		505	Eucalyptus_viridis_767,
+		506	Eucalyptus_limitaris_CANB_785552,
+		507	Eucalyptus_chlorophylla_CANB_785565,
+		508	Eucalyptus_coolabah_MC_10582,
+		509	Eucalyptus_raveretiana_685,
+		510	Eucalyptus_tectifica_CANB_785474,
+		511	Eucalyptus_virens_598,
+		512	Eucalyptus_atrata_8603434,
+		513	Eucalyptus_quadricostata_8603516,
+		514	Eucalyptus_ancophila_Mt_Annan_841467,
+		515	Eucalyptus_melanophloia_subsp_melanophloia_207,
+		516	Eucalyptus_paedoglauca_625,
+		517	Eucalyptus_albens_661,
+		518	Eucalyptus_pilligaensis_768,
+		519	Eucalyptus_normantonensis_340,
+		520	Eucalyptus_microcarpa_475,
+		521	Eucalyptus_polybractea_760,
+		522	Eucalyptus_cladocalyx_ANBG_652722,
+		523	Eucalyptus_froggattii_479,
+		524	Eucalyptus_bosistoana_671,
+		525	Eucalyptus_leucoxylon_subsp_leucoxylon_716,
+		526	Eucalyptus_tricarpa_8701791,
+		527	Eucalyptus_largeana_CANB_470581,
+		528	Eucalyptus_siderophloia_ANBG_7906137,
+		529	Eucalyptus_paniculata_749,
+		530	Eucalyptus_lansdowneana_652,
+		531	Eucalyptus_porosa_MC_10664,
+		532	Eucalyptus_baueriana_160,
+		533	Eucalyptus_behriana_646,
+		534	Eucalyptus_petiolaris_ANBG_8317297,
+		535	Eucalyptus_melliodora_ANBG_662272,
+		536	Eucalyptus_ochrophloia_CANB_785600,
+		537	Eucalyptus_sideroxylon_750609,
+		538	Eucalyptus_placita_AHT_E25,
+		539	Eucalyptus_castrensis_ANBG_653995,
+		540	Eucalyptus_microtheca_MC_10519,
+		541	Eucalyptus_confluens_CANB_785543,
+		542	Eucalyptus_brevifolia_CANB_785488,
+		543	Eucalyptus_persistens_subsp_tardecidens_AHT_E2,
+		544	Eucalyptus_leptophleba_CANB_597951,
+		545	Eucalyptus_oligantha_MC_10571,
+		546	Eucalyptus_koolpinensis_CANB_454611,
+		547	Eucalyptus_obconica_CANB_644802,
+		548	Eucalyptus_beyeriana_163,
+		549	Eucalyptus_fusiformis_8604718,
+		550	Eucalyptus_moluccana_50761,
+		551	Eucalyptus_largiflorens_CANB_785604,
+		552	Eucalyptus_cretata_271,
+		553	Eucalyptus_canescens_subsp_canescens_181,
+		554	Eucalyptus_phenax_subsp_phenax_375,
+		555	Eucalyptus_dumosa_329,
+		556	Eucalyptus_cyanophylla_338,
+		557	Eucalyptus_fraseri_subsp_fraseri_36,
+		558	Eucalyptus_gypsophila_543,
+		559	Eucalyptus_pterocarpa_8,
+		560	Eucalyptus_valens_478,
+		561	Eucalyptus_conglobata_subsp_conglobata_5,
+		562	Eucalyptus_nerthicola_34,
+		563	Eucalyptus_frenchiana_11,
+		564	Eucalyptus_distuberosa_subsp_aerata_10,
+		565	Eucalyptus_pileata_17,
+		566	Eucalyptus_spreta_40,
+		567	Eucalyptus_torquata_MC_10738,
+		568	Eucalyptus_clelandii_581,
+		569	Eucalyptus_vittata_43,
+		570	Eucalyptus_myriadena_591,
+		571	Eucalyptus_percostata_281,
+		572	Eucalyptus_tenuis_584,
+		573	Eucalyptus_obtusiflora_MC_10760,
+		574	Eucalyptus_georgei_subsp_georgei_323,
+		575	Eucalyptus_corrugata_7,
+		576	Eucalyptus_comitae_vallis_465,
+		577	Eucalyptus_brachycorys_266,
+		578	Eucalyptus_polita_22,
+		579	Eucalyptus_kondininensis_85,
+		580	Eucalyptus_argutifolia_AHT_E17,
+		581	Eucalyptus_brachycalyx_508,
+		582	Eucalyptus_oraria_28,
+		583	Eucalyptus_celastroides_subsp_celastroides_196,
+		584	Eucalyptus_calycogona_subsp_calycogona_362,
+		585	Eucalyptus_prolixa_CANB_536396,
+		586	Eucalyptus_yilgarnensis_AHT_E14,
+		587	Eucalyptus_gracilis_202,
+		588	Eucalyptus_quadrans_384,
+		589	Eucalyptus_halophila_CANB_794338,
+		590	Eucalyptus_ceratocorys_519,
+		591	Eucalyptus_exigua_55,
+		592	Eucalyptus_dundasii_528,
+		593	Eucalyptus_macrandra_153,
+		594	Eucalyptus_newbeyi_501,
+		595	Eucalyptus_cornuta_65,
+		596	Eucalyptus_burdettiana_510,
+		597	Eucalyptus_conferruminata_subsp_recherche_114,
+		598	Eucalyptus_mcquoidii_4,
+		599	Eucalyptus_gomphocephala_357,
+		600	Eucalyptus_incerata_728,
+		601	Eucalyptus_megacornuta_84,
+		602	Eucalyptus_tenera_440,
+		603	Eucalyptus_goniocarpa_536,
+		604	Eucalyptus_spathulata_subsp_spathulata_368,
+		605	Eucalyptus_concinna_457,
+		606	Eucalyptus_ophitica_607,
+		607	Eucalyptus_brevipes_CANB_692658,
+		608	Eucalyptus_subtilis_57,
+		609	Eucalyptus_cerasiformis_CANB_586828,
+		610	Eucalyptus_whitei_513,
+		611	Eucalyptus_vegrandis_subsp_vegrandis_435,
+		612	Eucalyptus_alipes_53,
+		613	Eucalyptus_desmondensis_515,
+		614	Eucalyptus_hebetifolia_467228,
+		615	Eucalyptus_annulata_CANB_794263,
+		616	Eucalyptus_redunca_507,
+		617	Eucalyptus_lehmanii_subsp_lehmanii_531,
+		618	Eucalyptus_astringens_subsp_astringens_68,
+		619	Eucalyptus_blaxellii_MC_11172,
+		620	Eucalyptus_utilis_62,
+		621	Eucalyptus_prominens_373,
+		622	Eucalyptus_carnei_757,
+		623	Eucalyptus_stricklandii_18,
+		624	Eucalyptus_grossa_CANB_794307,
+		625	Eucalyptus_kruseana_129,
+		626	Eucalyptus_brachyphylla_9807043,
+		627	Eucalyptus_pruiniramis_MC_11189,
+		628	Eucalyptus_accedens_346,
+		629	Eucalyptus_stowardii_CANB_790458,
+		630	Eucalyptus_protensa_14,
+		631	Eucalyptus_tumida_CANB_794343,
+		632	Eucalyptus_salubris_589,
+		633	Eucalyptus_terebra_31,
+		634	Eucalyptus_effusa_subsp_effusa_39,
+		635	Eucalyptus_creta_29,
+		636	Eucalyptus_campaspe_522,
+		637	Eucalyptus_jimberlanica_16,
+		638	Eucalyptus_diptera_535,
+		639	Eucalyptus_ravida_458,
+		640	Eucalyptus_medialis_AHT_E20,
+		641	Eucalyptus_livida_CANB_794326,
+		642	Eucalyptus_pluricaulis_subsp_pluricaulis_296,
+		643	Eucalyptus_abdita_CANB_687864,
+		644	Eucalyptus_cyclostoma_9903101,
+		645	Eucalyptus_gardneri_subsp_gardneri_593,
+		646	Eucalyptus_densa_subsp_densa_363,
+		647	Eucalyptus_extensa_33,
+		648	Eucalyptus_arachnae_518,
+		649	Eucalyptus_melanophitra_582,
+		650	Eucalyptus_clivicola_66,
+		651	Eucalyptus_phaenophylla_subsp_phaenophylla_CANB_794282,
+		652	Eucalyptus_semota_530,
+		653	Eucalyptus_praetermissa_CANB_610680,
+		654	Eucalyptus_histophylla_12,
+		655	Eucalyptus_thamnoides_86,
+		656	Eucalyptus_tortilis_588,
+		657	Eucalyptus_xanthonema_subsp_xanthonema_CANB_794264,
+		658	Eucalyptus_loxophleba_subsp_loxophleba_ANBG_9205090,
+		659	Eucalyptus_zopherophloia_AHT_E12,
+		660	Eucalyptus_articulata_186,
+		661	Eucalyptus_laeliae_337,
+		662	Eucalyptus_wubinensis_50,
+		663	Eucalyptus_trivalvis_AHT_E5,
+		664	Eucalyptus_talyuberlup_724,
+		665	Eucalyptus_erythronema_subsp_erythronema_19,
+		666	Eucalyptus_nutans_722,
+		667	Eucalyptus_cernua_436,
+		668	Eucalyptus_vesiculosa_87,
+		669	Eucalyptus_occidentalis_430,
+		670	Eucalyptus_proxima_432,
+		671	Eucalyptus_eremophila_CANB_794301,
+		672	Eucalyptus_mimica_subsp_mimica_534,
+		673	Eucalyptus_aspratilis_AHT_E18,
+		674	Eucalyptus_dielsii_74,
+		675	Eucalyptus_suggrandis_subsp_suggrandis_82,
+		676	Eucalyptus_sargentii_subsp_sargentii_524,
+		677	Eucalyptus_steedmanii_585,
+		678	Eucalyptus_diminuta_438,
+		679	Eucalyptus_cylindriflora_CANB_794327,
+		680	Eucalyptus_depauperata_CANB_794299,
+		681	Eucalyptus_leptocalyx_subsp_leptocalyx_73,
+		682	Eucalyptus_subangusta_subsp_subangusta_24,
+		683	Eucalyptus_aequioperta_23,
+		684	Eucalyptus_woodwardii_MC_10742,
+		685	Eucalyptus_rigens_76,
+		686	Eucalyptus_assimilans_269,
+		687	Eucalyptus_lesouefii_38,
+		688	Eucalyptus_platycorys_subsp_platycorys_54,
+		689	Eucalyptus_captiosa_CANB_799340,
+		690	Eucalyptus_cuspidata_6,
+		691	Eucalyptus_incrassata_283,
+		692	Eucalyptus_singularis_AHT_E15,
+		693	Eucalyptus_angulosa_383,
+		694	Eucalyptus_dolichorhyncha_192,
+		695	Eucalyptus_retusa_726,
+		696	Eucalyptus_stoatei_191,
+		697	Eucalyptus_forrestiana_MC_11265,
+		698	Eucalyptus_transcontinentalis_188,
+		699	Eucalyptus_melanoxylon_586,
+		700	Eucalyptus_griffithsii_15,
+		701	Eucalyptus_deflexa_364,
+		702	Eucalyptus_famelica_AHT_E23,
+		703	Eucalyptus_calcareana_455,
+		704	Eucalyptus_surgens_190,
+		705	Eucalyptus_ovularis_355,
+		706	Eucalyptus_merrickiae_CANB_794336,
+		707	Eucalyptus_rugosa_61,
+		708	Eucalyptus_litorea_341,
+		709	Eucalyptus_scyphocalyx_AHT_E7,
+		710	Eucalyptus_pimpiniana_462,
+		711	Eucalyptus_cylindrocarpa_AHT_E8
+	;
+	TREE * UNTITLED = [&R] ((((1:36.944057,2:36.944057):9.161828,(((3:20.161328,4:20.161328):9.010174,5:29.171502):0,((6:25.558197,(7:22.817127,8:22.817127):2.74107):0,(9:8.137025,10:8.137025):17.421172):3.613305):16.934383):0.553892,((((11:10.501614,12:10.501614):8.055062,(13:17.619854,(14:13.125687,15:13.125687):4.494167):0.936822):2.127694,(((16:6.371026,(17:2.598099,18:2.598099):3.772927):6.500327,(19:7.134121,(20:5.403683,21:5.403683):1.730438):5.737232):5.111174,((22:7.490056,(23:7.194412,((24:6.884259,25:6.884259):0,26:6.884259):0.310153):0.295644):4.026945,(27:10.59106,(28:6.474277,(29:6.187874,(30:4.194256,(31:1.435035,32:1.435035):2.759221):1.993618):0.286403):4.116783):0.925941):6.465526):2.701843):13.063473,((((33:25.890177,34:25.890177):2.131126,35:28.021303):0,((36:11.71824,(37:8.115293,(38:6.527075,39:6.527075):1.588218):3.602947):7.48174,(40:12.708013,(41:10.205271,(42:8.994265,(43:7.634577,(44:5.218839,45:5.218839):2.415738):1.359688):1.211006):2.502742):6.491967):8.821323):2.906359,((46:9.944905,47:9.944905):15.606851,(((48:11.757346,(49:11.757346,(50:11.757346,(51:11.30892,52:11.30892):0.448426):0):0):0,((53:7.323234,54:7.323234):0,55:7.323234):4.434112):4.517468,((56:8.588985,(57:4.946415,58:4.946415):3.64257):7.366207,(((59:9.132082,(60:5.607379,61:5.607379):3.524703):1.622387,(62:8.144809,63:8.144809):2.60966):0,(64:8.810715,((65:7.251677,((66:5.636397,((67:2.212424,((68:1.2007,69:1.2007):1.011724,70:2.212424):0):0,71:2.212424):3.423973):0.561994,(72:4.79935,((73:2.543508,(((((74:0.722953,75:0.722953):1.011557,(76:0.574113,77:0.574113):1.160397):0,((78:1.552164,(79:1.160434,80:1.160434):0.39173):0,(81:1.485621,82:1.485621):0.066543):0.182346):0,(83:1.518246,84:1.518246):0.216264):0.808998,85:2.543508):0):0,(86:1.573749,(87:0.788762,(88:0.481591,89:0.481591):0.307171):0.784987):0.969759):2.255842):1.399041):1.053286):0,(((90:1.053727,91:1.053727):2.280906,(92:1.601451,(93:0.61628,94:0.61628):0.985171):1.733182):3.917044,95:7.251677):0):1.559038):1.943754):5.200723):0.319622):9.276942):5.375906):2.820181):12.911934)AngCor:10.502415,(((96:39.787955,(((97:39.099204,(((98:26.851901,((99:12.613312,100:12.613312):11.600399,(101:19.833181,((102:16.792245,103:16.792245):2.115131,((104:6.893054,105:6.893054):1.391096,(106:5.984024,107:5.984024):2.300126):10.623226):0.925805):4.38053):2.63819):0.521849,108:27.37375):0,109:27.37375):11.725454):0,(110:26.900353,((111:8.044181,112:8.044181):4.77283,((113:6.645224,114:6.645224):0,115:6.645224):6.171787):14.083342):12.198851):0,(116:18.575413,117:18.575413):20.523791):0.688751):10.479034,(118:40.927378,(119:38.53585,(((120:9.995647,121:9.995647):11.845369,((122:10.731445,123:10.731445):0,124:10.731445):11.109571):16.121628,((125:21.22036,126:21.22036):15.548162,((127:12.475977,((128:5.791492,129:5.791492):3.326205,(130:3.737652,131:3.737652):5.380045):3.35828):12.947915,((((132:8.795184,(133:4.599982,134:4.599982):4.195202):5.315952,((135:6.835386,136:6.835386):4.75481,((137:6.177517,138:6.177517):2.907513,(139:8.516434,(140:6.849028,(((141:4.858714,((142:4.706591,(143:4.470456,144:4.470456):0.236135):0.152123,(145:4.858714,(146:3.032069,147:3.032069):1.826645):0):0):0,(((148:3.181814,(((149:2.055022,(150:1.445413,151:1.445413):0.609609):0,(152:1.332545,153:1.332545):0.722477):0,(154:1.503818,(155:0.847859,(156:0.521981,157:0.521981):0.325878):0.655959):0.551204):1.126792):1.427889,(158:4.609703,(159:3.750362,(((160:1.745128,161:1.745128):0.945687,(162:1.69891,(163:0.955439,164:0.955439):0.743471):0.991905):0,((165:1.312428,(166:0.691745,(167:0.435954,168:0.435954):0.255791):0.620683):1.378387,(169:2.690815,170:2.690815):0):0):1.059547):0.859341):0):0,((((171:2.201254,(172:1.097315,173:1.097315):1.103939):0,174:2.201254):0.481576,(((175:0.604703,176:0.604703):1.195869,177:1.800572):0,178:1.800572):0.882258):1.355149,(((((179:2.866893,(((180:1.992382,(181:1.992382,(182:0.987784,(183:0.57398,(184:0.239302,185:0.239302):0.334678):0.413804):1.004598):0):0,186:1.992382):0,(187:0.883322,188:0.883322):1.10906):0.874511):0.719021,(189:3.585914,190:3.585914):0):0,((191:1.747691,(192:1.389228,193:1.389228):0.358463):0,(194:0.830741,(195:0.658294,196:0.658294):0.172447):0.91695):1.838223):0,((197:2.092196,198:2.092196):0.440383,(199:2.284053,(200:0.828338,201:0.828338):1.455715):0.248526):1.053335):0,(202:3.062835,(((203:1.801924,204:1.801924):0.032584,205:1.834508):0,206:1.834508):1.228327):0.523079):0.452065):0.571724):0.249011):0,(((207:3.969774,(208:3.837426,(209:3.130625,210:3.130625):0.706801):0.132348):0,211:3.969774):0.88894,212:4.858714):0):1.990314):1.667406):0.568596):2.505166):2.52094):3.374603,(213:10.993418,(214:5.324344,215:5.324344):5.669074):6.492321):0,((216:13.125213,(217:9.11953,(218:7.968565,219:7.968565):1.150965):4.005683):0,((220:4.301841,(221:3.425765,222:3.425765):0.876076):2.367906,((223:2.356683,224:2.356683):2.339529,(225:2.769314,(226:2.542512,227:2.542512):0.226802):1.926898):1.973535):6.455466):4.360526):7.938153):11.34463):1.194122):0.573206):2.391528):9.339611):1.847707,(228:38.526791,(229:33.037698,((230:22.131208,231:22.131208):9.613301,(232:25.440358,((233:20.239477,234:20.239477):1.978155,((235:16.0818,(236:10.93562,237:10.93562):5.14618):1.247626,((238:12.595008,(239:5.805359,240:5.805359):6.789649):2.947092,((((241:6.80554,242:6.80554):4.755775,(243:8.07106,(244:6.822916,245:6.822916):1.248144):3.490255):0.493717,(((((246:4.993257,(247:3.650843,248:3.650843):1.342414):0,249:4.993257):2.19957,((250:4.015016,251:4.015016):0.58278,(252:4.214846,((253:3.574303,254:3.574303):0.477196,(255:2.990151,(256:2.274152,(257:0.849655,258:0.849655):1.424497):0.715999):1.061348):0.163347):0.38295):2.595031):4.209176,(259:3.544239,260:3.544239):7.857764):0,261:11.402003):0.653029):1.894827,(262:12.161573,((((263:6.465323,264:6.465323):0.384082,((265:2.887675,266:2.887675):0,267:2.887675):3.96173):1.673342,(((268:2.158601,269:2.158601):0,270:2.158601):4.0295,((271:2.019413,272:2.019413):2.445144,((273:3.051549,(274:2.972908,(((275:0.786346,(276:0.624056,277:0.624056):0.16229):0.873899,278:1.660245):0,(279:1.035899,280:1.035899):0.624346):1.312663):0.078641):1.151066,(281:3.040537,((282:1.760049,283:1.760049):0.697865,(284:1.802014,(285:1.48093,(286:1.008387,((287:0.857751,(((288:0.679349,(289:0.317119,290:0.317119):0.36223):0,((((291:0.506532,292:0.506532):0,293:0.506532):0.08638,(((((294:0.208817,295:0.208817):0,296:0.208817):0,297:0.208817):0.219324,(((298:0.134145,299:0.134145):0.137497,(300:0.151047,(301:0.120278,(((302:0.112337,(303:0.09819,304:0.09819):0.014147):0,305:0.112337):0,306:0.112337):0.007941):0.030769):0.120595):0.012282,(307:0.235921,(((308:0.088023,309:0.088023):0.059672,(310:0.081709,(311:0.037894,(312:0.01716,313:0.01716):0.020734):0.043815):0.065986):0.077151,((((((((314:0.057245,(315:0.057245,316:0.057245):0):0,(317:0.042919,(318:0.03984,(319:0.030375,(320:0.021889,321:0.021889):0.008486):0.009465):0.003079):0.014326):0.040633,322:0.097878):0,323:0.097878):0.06547,324:0.163348):0,(325:0.163348,326:0.163348):0):0,327:0.163348):0,328:0.163348):0.061498):0.011075):0.048003):0.144217):0,329:0.428141):0.164771):0.086437,330:0.679349):0):0,(331:0.25519,332:0.25519):0.424159):0.178402):0,333:0.857751):0.150636):0.472543):0.321084):0.6559):0.582623):1.162078):0.261942):1.723544):2.334646):2.104687,((334:7.57889,335:7.57889):0.83024,((336:7.748034,(337:6.530206,((338:4.555314,(339:3.890318,(340:2.479802,(((341:0.704501,(342:0.559845,((343:0.265965,(344:0.265965,(345:0.265965,346:0.265965):0):0):0,(347:0.115839,348:0.115839):0.150126):0.29388):0.144656):0.596693,((349:0.973028,(350:0.623006,351:0.623006):0.350022):0.058022,(352:0.774326,((353:0.370106,354:0.370106):0.208579,(355:0.315803,((356:0.107243,357:0.107243):0,358:0.107243):0.20856):0.262882):0.195641):0.256724):0.270144):0.575694,(359:1.644163,(360:1.534218,(361:1.450519,((362:1.386412,(((363:0.308997,364:0.308997):0.447607,(365:0.641906,366:0.641906):0.114698):0,(367:0.700497,(368:0.619001,(369:0.486099,(370:0.285302,371:0.285302):0.200797):0.132902):0.081496):0.056107):0.629808):0,((372:0.564977,((373:0.46355,374:0.46355):0,375:0.46355):0.101427):0,(376:0.39713,377:0.39713):0.167847):0.821435):0.064107):0.083699):0.109945):0.232725):0.602914):1.410516):0.664996):0.448474,((((378:3.218022,(379:2.351071,380:2.351071):0.866951):0,((381:1.393146,382:1.393146):1.051033,(383:1.682001,384:1.682001):0.762178):0.773843):1.033513,(385:2.465879,386:2.465879):1.785656):0,((387:4.012015,(((388:3.072614,(389:1.210105,(390:0.607675,391:0.607675):0.60243):1.862509):0,(392:2.146918,((393:0.84977,(394:0.649514,(395:0.635822,396:0.635822):0.013692):0.200256):0.657568,(((397:0.928355,(((((398:0.164034,399:0.164034):0.062453,(400:0.167123,401:0.167123):0.059364):0.216765,402:0.443252):0,403:0.443252):0.245764,(((((404:0.524696,405:0.524696):0,(406:0.426937,(407:0.223622,408:0.223622):0.203315):0.097759):0.051131,((((((((409:0.107049,410:0.107049):0.041408,411:0.148457):0,412:0.148457):0.190238,(413:0.241182,(414:0.188632,((415:0.151409,416:0.151409):0,417:0.151409):0.037223):0.05255):0.097513):0,418:0.338695):0.004473,((419:0.263432,420:0.263432):0,421:0.263432):0.079736):0,(422:0.343168,(((423:0.175901,424:0.175901):0.133498,425:0.309399):0,426:0.309399):0.033769):0):0,427:0.343168):0.232659):0,(428:0.453848,(429:0.229316,430:0.229316):0.224532):0.121979):0,((((431:0.476843,432:0.476843):0,433:0.476843):0.024121,((434:0.287062,435:0.287062):0.109086,(((436:0.358022,(437:0.20155,((438:0.131613,(439:0.103407,440:0.103407):0.028206):0,441:0.131613):0.069937):0.156472):0.005809,((442:0.195277,(443:0.102403,444:0.102403):0.092874):0,445:0.195277):0.168554):0,446:0.363831):0.032317):0.104816):0,((447:0.271615,(448:0.248087,(449:0.135483,450:0.135483):0.112604):0.023528):0.229349,451:0.500964):0):0.074863):0.113189):0.239339):0.304489,452:1.232844):0,453:1.232844):0.274494):0.63958):0.925696):0,(454:2.17135,455:2.17135):0.901264):0.939401):0,456:4.012015):0.23952):0.752253):1.526418):1.217828):0.416182,((457:6.324867,((458:3.162256,(459:1.534674,(460:1.266086,461:1.266086):0.268588):1.627582):2.077393,((((462:3.372834,463:3.372834):0,(464:3.20729,465:3.20729):0.165544):0,466:3.372834):1.036841,(((467:3.61061,468:3.61061):0.66039,(469:2.775535,(470:1.137271,471:1.137271):1.638264):1.495465):0,(((472:1.531074,473:1.531074):0.425213,(474:1.720542,(475:1.269741,476:1.269741):0.450801):0.235745):1.673056,((477:1.697937,(478:1.343257,(479:0.955549,(480:0.526321,481:0.526321):0.429228):0.387708):0.35468):0.731378,((482:1.125917,483:1.125917):0.472106,((((484:0.851628,((485:0.416945,486:0.416945):0.377459,((487:0.227176,488:0.227176):0.162464,(489:0.206316,490:0.206316):0.183324):0.404764):0.057224):0.068968,(((491:0.452323,492:0.452323):0.012803,((493:0.195927,494:0.195927):0.034369,((495:0.094501,496:0.094501):0,(497:0.058907,498:0.058907):0.035594):0.135795):0.23483):0,((499:0.390456,((500:0.100699,501:0.100699):0.147388,(502:0.10111,503:0.10111):0.146977):0.142369):0,(504:0.1902,505:0.1902):0.200256):0.07467):0.45547):0.635971,(((506:0.64405,507:0.64405):0.480147,508:1.124197):0,(509:1.124197,510:1.124197):0):0.43237):0,((511:0.727497,512:0.727497):0.82907,(((513:0.719302,(((514:0.415972,(515:0.255585,516:0.255585):0.160387):0.201456,(517:0.361885,(518:0.177548,(519:0.10514,(520:0.085915,521:0.085915):0.019225):0.072408):0.184337):0.255543):0,((522:0.21161,523:0.21161):0.158113,((524:0.345999,((525:0.281832,526:0.281832):0.064167,((527:0.201031,528:0.201031):0,((529:0.179509,(530:0.161832,(531:0.079123,(532:0.044975,533:0.044975):0.034148):0.082709):0.017677):0,534:0.179509):0.021522):0.144968):0):0,535:0.345999):0.023724):0.247705):0.101874):0.440687,((536:0.555992,(537:0.441822,(538:0.169514,539:0.169514):0.272308):0.11417):0.322355,(540:0.690518,((541:0.294334,542:0.294334):0.076371,((543:0.160558,544:0.160558):0.016974,(545:0.131273,(546:0.053349,547:0.053349):0.077924):0.046259):0.193173):0.319813):0.187829):0.281642):0,(548:0.693064,(549:0.418625,(550:0.311259,551:0.311259):0.107366):0.274439):0.466925):0.396578):0):0.041456):0.831292):1.200028):0.641657):0.138675):0.829974):1.085218):0.763125,(((552:2.457169,(553:1.914253,(554:0.89562,(555:0.468804,556:0.468804):0.426816):1.018633):0.542916):1.275033,((557:3.519896,(((558:2.599446,(559:1.676608,(560:1.614954,561:1.614954):0.061654):0.922838):0.888349,(((((562:1.121218,563:1.121218):0.916746,(564:2.037964,(565:2.037964,566:2.037964):0):0):0,567:2.037964):0,568:2.037964):1.449831,((569:2.888443,(570:1.379326,(571:1.005213,572:1.005213):0.374113):1.509117):0,((573:1.916231,((574:1.303027,(575:1.240232,(576:0.582952,577:0.582952):0.65728):0.062795):0.613204,578:1.916231):0):0,579:1.916231):0.972212):0.599352):0):0,580:3.487795):0.032101):0,581:3.519896):0.212306):1.958053,(((582:4.055573,((583:3.414956,(584:1.243854,585:1.243854):2.171102):0.245955,(586:1.673451,(587:1.059577,(588:1.020074,589:1.020074):0.039503):0.613874):1.98746):0.394662):0,590:4.055573):1.10393,(591:4.001536,((((592:3.319652,((593:2.348415,((594:1.114215,((595:0.998573,596:0.998573):0.115642,(597:0.992361,598:0.992361):0.121854):0):0,(599:0.674107,(600:0.396711,601:0.396711):0.277396):0.440108):1.2342):0.085526,((((602:1.181128,(((603:0.69838,(604:0.379604,(605:0.319865,(606:0.287907,607:0.287907):0.031958):0.059739):0.318776):0.17834,((608:0.354452,(609:0.299949,610:0.299949):0.054503):0.235309,(611:0.353015,(612:0.345458,(613:0.322063,((614:0.281949,(615:0.207403,616:0.207403):0.074546):0,617:0.281949):0.040114):0.023395):0.007557):0.236746):0.286959):0.179458,(((618:0.656356,619:0.656356):0.092272,(620:0.660949,(621:0.612448,((622:0.552491,(((623:0.180692,624:0.180692):0.273764,(((((625:0.201553,626:0.201553):0.125586,627:0.327139):0,(628:0.283916,629:0.283916):0.043223):0.067143,(630:0.394282,((631:0.110872,632:0.110872):0.266297,((633:0.233706,634:0.233706):0,(635:0.233706,(636:0.215793,(637:0.191925,(638:0.132657,639:0.132657):0.059268):0.023868):0.017913):0):0.143463):0.017113):0):0,((640:0.23983,((641:0.20971,((642:0.14712,643:0.14712):0.005705,((644:0.052271,645:0.052271):0,646:0.052271):0.100554):0.056885):0,647:0.20971):0.03012):0,(648:0.223527,(((649:0.185246,650:0.185246):0,((651:0.120736,652:0.120736):0,653:0.120736):0.06451):0,654:0.185246):0.038281):0.016303):0.154452):0.060174):0,((655:0.161159,(656:0.120684,657:0.120684):0.040475):0.089869,(((658:0.094915,659:0.094915):0.094504,660:0.189419):0,(661:0.092805,(662:0.040569,663:0.040569):0.052236):0.096614):0.061609):0.203428):0.098035):0,(664:0.287665,665:0.287665):0.264826):0.059957):0.048501):0.087679):0,(666:0.475311,(667:0.300307,(668:0.192508,(669:0.142916,670:0.142916):0.049592):0.107799):0.175004):0.273317):0.30755):0.12495):0,(671:0.616976,672:0.616976):0.564152):0.555553,(((673:0.74563,(674:0.474089,675:0.474089):0.271541):0.504696,(676:0.842161,(677:0.760963,678:0.760963):0.081198):0.408165):0,679:1.250326):0.486355):0,680:1.736681):0.69726):0.885711):0.03041,(681:3.350062,((682:0.543798,683:0.543798):0.843445,(684:1.158373,685:1.158373):0.22887):1.962819):0):0,(((686:0.890323,687:0.890323):1.546979,((((688:1.889795,(((689:1.171482,(((690:0.661742,691:0.661742):0.353222,(((692:0.808833,693:0.808833):0,694:0.808833):0,695:0.808833):0.206131):0.156518,696:1.171482):0):0,697:1.171482):0.718313,698:1.889795):0):0,(699:1.542823,700:1.542823):0.346972):0,(701:0.623064,702:0.623064):1.266731):0,(703:1.889795,(704:0.791769,(705:0.518837,706:0.518837):0.272932):1.098026):0):0.547507):0.91276,(707:3.350062,708:3.350062):0):0):0,(709:3.350062,(710:3.006901,711:3.006901):0.343161):0):0.651474):1.157967):0.530752):1.397737):1.076224):0.244914):2.218304):1.534139):1.788286):1.592241):1.787326):4.888206):3.222726):6.304151):1.293189):5.489093):13.587905)Eucalyptus:5.047496);
+END;
